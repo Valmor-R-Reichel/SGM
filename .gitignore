@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# ALLOWLIST, NOT A BLOCKLIST.
+#
+# Everything is ignored by default. Files enter this repository only when a
+# line below explicitly lets them in.
+#
+# Why: with a blocklist, a new file leaks by forgetting. With an allowlist, a
+# new file stays out until someone decides otherwise. The cost is remembering
+# to add a line, and that is the right cost to pay.
+# ---------------------------------------------------------------------------
+
+# 1. Ignore everything.
+*
+
+# 2. But still descend into directories, so the rules below can match.
+!*/
+
+# 3. Explicitly allowed files.
+!.gitignore
+!README.md
+!METHOD.md
+!LICENSE
+!NOTICE.md
+!CHANGELOG.md
+!docs/**/*.md
+!examples/**/*.md
+!assets/**/*.png
+!assets/**/*.svg
+
+# 4. Never, under any circumstance.
+*.env
+*.key
+*.pem
+.DS_Store
+Thumbs.db
