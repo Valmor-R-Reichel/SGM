@@ -53,27 +53,13 @@ propose and never edit the archive. A single skill has write access to it. Appro
 click rather than free text, because a gate that asks you to compose the authorization
 becomes a rubber stamp.
 
-**A rule below fifty percent measured compliance goes back on the table.** Not revoked
-automatically, but reviewed with the measurement beside it, and either rewritten to match
-what actually happens or dropped. Two rules have already gone that way, and both are
-documented with their numbers.
-
-## Repository layout
-
-```
-README.md            you are here
-METHOD.md            the full method, written to survive losing everything else
-docs/
-  01-problem.md      why three earlier attempts failed
-  02-funnel.md       observe, check, understand, comprehend, record
-  03-note-anatomy.md claim titles, frontmatter, marking a hypothesis
-  04-evidence.md     the confidence ladder and the independence test
-  05-reading-path.md how the archive gets read back
-  06-machine-vs-human.md the gates, and the reasoning behind each one
-  07-rules-that-died.md rules revoked by measurement, with the numbers
-  08-limits.md       where this does not work
-examples/            synthetic notes from a fictional company
-```
+**A rule below fifty percent measured adherence goes back on the table.** Not revoked
+automatically, but reviewed with the count beside it, and either rewritten to match what
+actually happens or dropped. Two rules have already gone that way. A maximum note size,
+which was being followed 47 percent of the time, and a requirement that every link carry
+a comment explaining it, which was being followed in none of the 315 links that existed
+when it was measured. The rule that replaced the second one, requiring a comment only on
+links that cross between branches, sits at 53 percent and stays for now.
 
 ## Limits
 
@@ -95,8 +81,11 @@ would be strange. What I do not delegate is the judgment about what stays.
 ## Status
 
 A first version ran daily from June 2026. It was torn down and rebuilt from scratch in
-August, for the reason described above, and the current version is documented in full in
-`METHOD.md`. The `docs/` breakdown and the synthetic examples are being written.
+August, for the reason described above, and has been running since.
+
+This repository currently holds only what you are reading. The full method exists as a
+working document and is being prepared for publication here, together with a set of
+synthetic examples.
 
 ## License
 
