@@ -8,7 +8,7 @@
 > method does not. If the archive is ever left behind, this file alone should be enough to
 > rebuild the system on another machine, at another company, about another subject.
 >
-> **How to read it.** Top to bottom the first time. After that, section 12 works as a
+> **How to read it.** Top to bottom the first time. After that, section 11 works as a
 > catalog: one line of reasoning per architectural decision, and that is the part that
 > cannot be lost.
 
@@ -194,7 +194,7 @@ wearing the appearance of a connection. Within the same branch it is welcome, no
 proximity already says enough.
 
 > This rule used to be broader and **was killed by measurement**. It required a comment on
-> every link, and the count found hundreds with none, at zero adherence. See section 13.
+> every link, and the count found hundreds with none, at zero adherence. See section 12.
 
 ### No note carries ambiguity
 
@@ -214,7 +214,7 @@ investigation a year later.
 sentence:
 
 ```
-`[medium · 2ev: meeting 05/08 · email 21/07]`
+`[medium Â· 2ev: meeting 05/08 Â· email 21/07]`
 ```
 
 The same file can hold one `high` claim and one `low` claim.
@@ -289,12 +289,12 @@ The full circuit:
 
 ```
 learning during the session
-   └─> raw log             (immediate append, one line, any session, zero cost)
-        └─> log skill      (gate: capture midweek, consolidate once or twice a week)
-             └─> funnel    (observe, check, understand, comprehend, record)
-                  └─> triage plus click approval
-                       └─> branches
-                            └─> script regenerates index, map and mirror
+   â””â”€> raw log             (immediate append, one line, any session, zero cost)
+        â””â”€> log skill      (gate: capture midweek, consolidate once or twice a week)
+             â””â”€> funnel    (observe, check, understand, comprehend, record)
+                  â””â”€> triage plus click approval
+                       â””â”€> branches
+                            â””â”€> script regenerates index, map and mirror
 ```
 
 The raw log is the most underrated piece. It exists because **a learning captured in the
@@ -349,59 +349,7 @@ quoted, a meeting that was run.
 
 ---
 
-## 11. What other people's systems taught me
-
-Three people looked at this closely, and each comparison decided something. I am keeping
-them here because the conclusions are less useful than the reasoning that produced them.
-
-**A colleague running the same stack, and a different graph.** He works with the same tools:
-the same editor, the same agent, the same note application with a graph view, and agents
-split by competence. His graph was visibly sparser than mine, and mine was far more densely
-linked. My first reaction was that dense linking was a defect waiting to happen.
-
-It was not, and the reason is that we are solving different problems. His graph works as a
-**context filter for agents**: he keeps parallel bases and needs the agent to know which one
-to consult. Mine already has a generated index and a naming convention doing that job, so
-building a graph for routing would be work with no return today. Same tool, two
-architectures, both correct.
-
-**A colleague who diagnosed the right symptom and gave advice that did not apply.** He
-looked at my screen without knowing anything about this system, and immediately said that
-the more information you put in a folder, the less the model will pull out of it. He
-recommended splitting my largest file into smaller ones by category, with the analogy that a
-hundred small agents beat ten large ones.
-
-His argument is correct and it describes a different mechanism. In his setup, the model
-enters the folder with a limited window and takes what fits, so a large file is a real loss.
-In mine, a file is either read whole or not read at all, so the effect of a large file is
-price, not loss. The file he pointed at is only opened when someone is about to write in my
-voice, and in that case it has to be read whole, because choosing the right register
-requires knowing all of them. Splitting it would trade one easy decision for five that get
-made wrong more often.
-
-**The part I only saw by taking his advice seriously:** applied to a different file, the one
-loaded at the start of every single session, his diagnosis is exactly right. So the outside
-advice confirmed the decision instead of overturning it, but only after I found the object
-it actually described. Good advice aimed at the wrong target looks like bad advice.
-
-**An outside reader, with no context at all.** Someone who works in analytics at a large
-company abroad, with full access to the same models, went through the whole thing and said
-he had seen nothing like it. What he singled out was not the technical machinery. It was
-that the archive holds the technical work and the people work in the same structure, linked
-to each other: how someone reacted before, what they care about, what a given decision cost
-politically.
-
-That mattered because it contradicted my own instinct. I had been planning to publish only
-the technical half, on the assumption that the rest was personal clutter. The part I wanted
-to cut was the part a stranger found worth the trip.
-
-**The general principle underneath all three:** the right architecture depends on how your
-agent actually reads, not on what sounds well organized. Ask whether the reader loads the
-whole file or takes what fits, and the question of how big a file should be answers itself.
-
----
-
-## 12. The catalog of reasoning
+## 11. The catalog of reasoning
 
 This is the section that cannot be lost. One line per architectural decision, grouped by
 theme. If everything else disappears, this is what the system gets rebuilt from.
@@ -426,6 +374,10 @@ theme. If everything else disappears, this is what the system gets rebuilt from.
   measured and had zero adherence.
 - **The size cap per note was dropped.** It was being broken in most cases, and a rule the
   evidence shows unenforced is debt, not a rule.
+- **How large a file should be depends on how the agent reads it.** If the agent loads the
+  file whole, size is price. If it enters the folder and takes whatever fits, size is loss.
+  There is no general answer, and advice that assumes the wrong mechanism will sound wrong
+  while being perfectly correct about a different setup.
 - **Depth comes from revision, not from the number of files.**
 - **Ambiguity leaves the note.** Doubt lives in its own file, and when it resolves the wrong
   version is deleted with one line saying what was discarded.
@@ -479,7 +431,7 @@ theme. If everything else disappears, this is what the system gets rebuilt from.
 
 ---
 
-## 13. Mistakes that became rules
+## 12. Mistakes that became rules
 
 These are not anecdotes. Each one cost work and turned into a criterion.
 
@@ -509,7 +461,7 @@ These are not anecdotes. Each one cost work and turned into a criterion.
 
 ---
 
-## 14. What is mine and what belongs to an employer
+## 13. What is mine and what belongs to an employer
 
 The archive mixes two things with different owners, and they need different handling:
 
@@ -537,13 +489,13 @@ layer I get to take with me was already the larger part.
 
 ---
 
-## 15. How to update this document
+## 14. How to update this document
 
 **Write here when:**
 
 - I made an architectural decision about how the system works
 - I killed a rule by measurement, and the reason matters more than the new rule
-- I found a mistake that became a criterion, of the kind in section 13
+- I found a mistake that became a criterion, of the kind in section 12
 - I changed the funnel, the confidence ladder, or the machine/human boundary
 
 **Do not write here when:**
