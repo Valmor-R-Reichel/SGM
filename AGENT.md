@@ -50,6 +50,12 @@ wrong.
    a hypothesis?
 5. **Record.** Only what survived the first four steps.
 
+**Inside step 3, argue the opposite before you accept a conclusion.** Thesis, then
+antithesis. State the conclusion, then state the strongest case against it using only what
+is in the raw log entry. If the conclusion survives that, record it. If it does not, either
+drop it or mark it as a `hypothesis:` instead of a fact. Show this check in your response so
+the human can see it happen, not just the result.
+
 ## The golden rule
 
 A piece of information becomes a file only if it will still be true in six months, or if it
@@ -130,6 +136,14 @@ less.
   confirm what two already answered.
 - Respect what a note says about itself. A hypothesis is not a fact. Never repeat a number
   without opening the file that sourced it.
+
+## Optional: a cooperation marker
+
+Some people using this method also keep a per-person marker of whether someone cooperated
+on a request or not, updated round by round, and use it to calibrate how much to help that
+person next time. This is not part of the default funnel above, and it is not something to
+add on your own. Only build it if the human explicitly asks for it. The full reasoning is in
+`METHOD.md`, section 7.
 
 ## What you are not
 

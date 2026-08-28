@@ -8,7 +8,7 @@
 > method does not. If the archive is ever left behind, this file alone should be enough to
 > rebuild the system on another machine, at another company, about another subject.
 >
-> **How to read it.** Top to bottom the first time. After that, section 11 works as a
+> **How to read it.** Top to bottom the first time. After that, section 12 works as a
 > catalog: one line of reasoning per architectural decision, and that is the part that
 > cannot be lost.
 
@@ -89,6 +89,11 @@ Every new piece of material goes through five steps before it becomes a file:
 reasoning outweighs the conclusion, because conclusions age and reasoning teaches. A file
 that records what was decided is useful for a quarter. A file that records why it was
 decided is useful the next time you have to decide.
+
+**Inside step 3, the dialectic check.** Before a conclusion gets recorded here, argue the
+opposite of it first. A weak hypothesis collapses on its own against the evidence sitting in
+the same session when it is tested this way, and the conclusion that survives is stronger
+for having faced the opposite case, not for having been accepted on the first pass.
 
 ---
 
@@ -194,7 +199,7 @@ wearing the appearance of a connection. Within the same branch it is welcome, no
 proximity already says enough.
 
 > This rule used to be broader and **was killed by measurement**. It required a comment on
-> every link, and the count found hundreds with none, at zero adherence. See section 12.
+> every link, and the count found hundreds with none, at zero adherence. See section 13.
 
 ### No note carries ambiguity
 
@@ -214,7 +219,7 @@ investigation a year later.
 sentence:
 
 ```
-`[medium Â· 2ev: meeting 05/08 Â· email 21/07]`
+`[medium · 2ev: meeting 05/08 · email 21/07]`
 ```
 
 The same file can hold one `high` claim and one `low` claim.
@@ -243,7 +248,27 @@ freeze the branch without protecting anything.
 
 ---
 
-## 7. How it gets read
+## 7. The cooperation marker, and how it shapes future collaboration
+
+A second mechanism runs alongside the writing funnel: a marker per person, cooperated or
+did not cooperate, updated after each meaningful interaction. This is not general trust. It
+is a specific scoreboard, updated round by round, in the sense the term is used in game
+theory.
+
+The use: before deciding how much to help someone again, check the scoreboard first.
+Unconditional cooperation has a cost that only shows up later, it turns into always being
+the one who solves things and never being helped back. Round by round, weigh what is gained
+by helping against what is gained by not, and the other person knows this is how the
+weighing works. It is not silent manipulation, it is a declared rule.
+
+This is not the neutral fact recording the rest of the system produces. It is a relational
+decision instrument, built on the same habit of dating evidence that everything else here
+uses. The difference is that the output here is not a note, it is a calibration of future
+behavior.
+
+---
+
+## 8. How it gets read
 
 This section exists because the first version of the system was entirely about writing and
 had **not one line about reading**. The result was improvisation: sweep folders, open a
@@ -266,7 +291,7 @@ whole note, find out it was not there.
 
 ---
 
-## 8. The division of work between machine, agent and human
+## 9. The division of work between machine, agent and human
 
 The boundary that holds the design together:
 
@@ -302,7 +327,7 @@ moment costs one line, and reconstructed at the end of the week costs the whole 
 
 ---
 
-## 9. The tooling, and what each piece solves
+## 10. The tooling, and what each piece solves
 
 None of these is sophisticated. Each one solves a measured problem.
 
@@ -321,7 +346,7 @@ that depends on installation dies on the first new machine.
 
 ---
 
-## 10. How the system is measured
+## 11. How the system is measured
 
 The metric is **how many times it prevented an error or delivered a finished argument**, not
 the count of notes, kilobytes or links.
@@ -349,7 +374,7 @@ quoted, a meeting that was run.
 
 ---
 
-## 11. The catalog of reasoning
+## 12. The catalog of reasoning
 
 This is the section that cannot be lost. One line per architectural decision, grouped by
 theme. If everything else disappears, this is what the system gets rebuilt from.
@@ -431,7 +456,7 @@ theme. If everything else disappears, this is what the system gets rebuilt from.
 
 ---
 
-## 12. Mistakes that became rules
+## 13. Mistakes that became rules
 
 These are not anecdotes. Each one cost work and turned into a criterion.
 
@@ -461,7 +486,7 @@ These are not anecdotes. Each one cost work and turned into a criterion.
 
 ---
 
-## 13. What is mine and what belongs to an employer
+## 14. What is mine and what belongs to an employer
 
 The archive mixes two things with different owners, and they need different handling:
 
@@ -489,13 +514,13 @@ layer I get to take with me was already the larger part.
 
 ---
 
-## 14. How to update this document
+## 15. How to update this document
 
 **Write here when:**
 
 - I made an architectural decision about how the system works
 - I killed a rule by measurement, and the reason matters more than the new rule
-- I found a mistake that became a criterion, of the kind in section 12
+- I found a mistake that became a criterion, of the kind in section 13
 - I changed the funnel, the confidence ladder, or the machine/human boundary
 
 **Do not write here when:**
