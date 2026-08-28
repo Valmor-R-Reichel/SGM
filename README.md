@@ -61,6 +61,25 @@ a comment explaining it, which was being followed in none of the 315 links that 
 when it was measured. The rule that replaced the second one, requiring a comment only on
 links that cross between branches, sits at 53 percent and stays for now.
 
+## Getting started
+
+`AGENT.md` is the piece that makes this executable rather than just a description. Paste it
+into your assistant as a system prompt or project instructions, then:
+
+1. Create four folders: `people/`, `decisions/`, `projects/`, `profile/`. Add more only once
+   three or more things stop fitting the ones you have.
+2. Create an empty `raw-log.md`.
+3. Work normally. Whenever something worth keeping comes up, a fact, a decision, a reason,
+   tell your assistant to capture it. Each entry costs one line.
+4. When you want the archive to catch up, say something like "run the log." Your assistant
+   reads `raw-log.md`, applies the funnel described in `AGENT.md`, and shows you a plan
+   before writing anything.
+5. Look at `examples/` for what a finished note looks like: a claim as a title, a source, a
+   confidence level attached to the sentence that earned it.
+
+The reasoning behind every rule in `AGENT.md` is in `METHOD.md`. You do not need to read it
+to get started, it is where "why this and not something simpler" gets answered.
+
 ## Limits
 
 The method assumes an operator who stands behind the output. The machine holds the
@@ -83,9 +102,8 @@ would be strange. What I do not delegate is the judgment about what stays.
 A first version ran daily from June 2026. It was torn down and rebuilt from scratch in
 August, for the reason described above, and has been running since.
 
-The full method is in [`METHOD.md`](METHOD.md), including the reasoning behind each
-architectural choice and the rules that were killed by measurement. A set of synthetic
-examples showing what the notes actually look like is still being written.
+The full method is in [`METHOD.md`](METHOD.md). `AGENT.md` and `examples/` turn it into
+something you can run today, on your own archive.
 
 ## License
 

@@ -19,11 +19,13 @@
 !.gitignore
 !README.md
 !METHOD.md
+!AGENT.md
 !LICENSE
 !NOTICE.md
 !CHANGELOG.md
 !docs/**/*.md
 !examples/**/*.md
+!examples/**/
 !assets/**/*.png
 !assets/**/*.svg
 
