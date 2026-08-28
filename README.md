@@ -83,9 +83,9 @@ would be strange. What I do not delegate is the judgment about what stays.
 A first version ran daily from June 2026. It was torn down and rebuilt from scratch in
 August, for the reason described above, and has been running since.
 
-This repository currently holds only what you are reading. The full method exists as a
-working document and is being prepared for publication here, together with a set of
-synthetic examples.
+The full method is in [`METHOD.md`](METHOD.md), including the reasoning behind each
+architectural choice and the rules that were killed by measurement. A set of synthetic
+examples showing what the notes actually look like is still being written.
 
 ## License
 
