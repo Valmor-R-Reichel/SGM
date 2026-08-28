@@ -354,10 +354,10 @@ the count of notes, kilobytes or links.
 **Why counting files was the wrong metric.** Counting measures production, and production is
 exactly what killed the three earlier attempts. The curve makes it visible:
 
-| period | notes created | notes updated | ratio |
+| period (August) | notes created | notes updated | ratio |
 |---|---|---|---|
-| first three days | 61 | 42 | **1.45** |
-| next four days | 19 | 37 | **0.51** |
+| days 1 to 3 | 61 | 42 | **1.45** |
+| days 4 to 7 | 19 | 37 | **0.51** |
 
 Production fell by 69 percent and the archive got better, not worse. A metric that points
 down while the thing improves is measuring the wrong quantity.
@@ -508,9 +508,12 @@ Three rules learned while separating the two:
    people.
 
 The measurement that produced this section is worth keeping, because it reframed what the
-archive is. When I checked, **25 of the 31 decisions in the archive were about method, not
+archive is. One week in, **25 of the 31 decisions in the archive were about method, not
 about the business.** In a week I had built more method than corporate knowledge, and the
-layer I get to take with me was already the larger part.
+layer I get to take with me was already the larger part. That count is a snapshot from that
+week, not a ratio that holds by construction. It has not been rechecked since, and a system
+whose decisions branch keeps growing should expect that ratio to drift, in either
+direction, as new decisions get made.
 
 ---
 

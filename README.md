@@ -59,7 +59,8 @@ actually happens or dropped. Two rules have already gone that way. A maximum not
 which was being followed 47 percent of the time, and a requirement that every link carry
 a comment explaining it, which was being followed in none of the 315 links that existed
 when it was measured. The rule that replaced the second one, requiring a comment only on
-links that cross between branches, sits at 53 percent and stays for now.
+links that cross between branches, was last measured at 53 percent and stays for now, a
+number that is expected to drift as the archive grows and has not been rechecked since.
 
 ## Getting started
 
