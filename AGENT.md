@@ -3,9 +3,9 @@
 **This is the center.** Every session that touches this archive reads this file first,
 before opening anything else, before writing a single line. It is the hub, everything else
 in this repository is a spoke: `skills/log/SKILL.md` and `skills/write/SKILL.md` are the two
-procedures that build on what is written here, and `METHOD.md` is where the reasoning behind
-each rule lives if you need it. Nothing here sends you outward before you have read this
-file all the way through once.
+procedures that build on what is written here, `WALKTHROUGH.md` shows the rules below running
+on a case, and `METHOD.md` is where the reasoning behind each rule lives if you need it.
+Nothing here sends you outward before you have read this file all the way through once.
 
 This file is enough to get started on its own. If your tool discovers skills automatically
 from a `skills/<name>/SKILL.md` layout, drop that folder in too, `log` and `write` turn into
@@ -64,6 +64,13 @@ antithesis. State the conclusion, then state the strongest case against it using
 is in the raw log entry. If the conclusion survives that, record it. If it does not, either
 drop it or mark it as a `hypothesis:` instead of a fact. Show this check in your response so
 the human can see it happen, not just the result.
+
+**Why this rule exists, so you apply it rather than perform it.** You agree too easily.
+Handed a hypothesis, you tend to hand it back better dressed and sounding more certain than
+when it arrived. That is not dishonesty and it will not be fixed by being asked for candour.
+Building the counter case forces you back to the dated evidence in the log, which is the only
+thing that stops you going back to the human instead. A counter case assembled out of what
+you think they want to hear is this rule failing while looking like it ran.
 
 ## The golden rule
 
@@ -137,22 +144,65 @@ less.
 
 ## How to read the archive back
 
-- Ask for, or generate, a list of file titles before opening files. In a small archive this
-  can be a directory listing. Do not sweep folders blind.
-- The type of question tells you where to look. A person, their file. Why something was
-  decided, `decisions/`. Progress, the project file.
-- Open in batches, and stop as soon as you have an answer. Do not open a third file to
-  confirm what two already answered.
-- Respect what a note says about itself. A hypothesis is not a fact. Never repeat a number
-  without opening the file that sourced it.
+This section is as important as everything above it. A system that only tells you how to
+write produces a warehouse, and an agent arriving with a question and no route improvises:
+sweeps folders, opens a whole note, finds out it was not the one. Follow these five steps in
+order.
 
-## Optional: a cooperation marker
+**1. Get the list of titles first, always.** Ask for a generated index, or in a small archive
+list the directories. Because every title is a claim, the list usually answers the question or
+names the exact file. **Never sweep the archive with a search before you have looked at the
+list.**
 
-Some people using this method also keep a per-person marker of whether someone cooperated
-on a request or not, updated round by round, and use it to calibrate how much to help that
-person next time. This is not part of the default funnel above, and it is not something to
-add on your own. Only build it if the human explicitly asks for it. The full reasoning is in
-`METHOD.md`, section 7.
+**2. The type of question tells you where to open.**
+
+| the question is about | open |
+|---|---|
+| a person: who they are, how they work, what they have said | their file in `people/` |
+| **why** something was decided, what the reasoning was | `decisions/`. The titles are the decisions |
+| a number, a total, a count, a deadline | the note that asserts it names its source. Open the source, not just the note |
+| progress, scope or risk on a piece of work | the file in `projects/` |
+| how this person writes, negotiates, positions themselves | `profile/` |
+| what happened in one specific session | the raw log, with a search, never by reading it start to finish |
+| two sources disagree and nobody knows which holds | the open questions file |
+
+**3. Open in batches, and stop early.** Candidate files go in one turn, not one at a time. Do
+not open a third file to confirm what two already answered. Notes here are long on purpose;
+reading one more for safety costs a lot and improves nothing.
+
+**4. Respect what a note declares about itself.**
+
+- A `hypothesis:` **is not a fact.** If your answer depends on one, say so, and say how much
+  evidence it has.
+- Confidence is attached to the sentence, not the file. One note can hold a high confidence
+  claim and a low confidence one. Quote the level of the sentence you actually used.
+- **Never repeat a number without opening the file that sourced it.** Either you opened it, or
+  you say you did not check.
+
+**5. Expect the shape, and read it.** Anything mentioned repeatedly accumulates: it gets a
+file, then the file gets sections, then other notes start pointing at it. A few files end up
+heavily connected and most stay small, which is a property of the archive rather than an
+accident. Two things follow. A heavily connected file is usually the right place to start on
+its subject. And a file that was central three months ago and is peripheral now has not become
+wrong, it means everything around it grew under the same rule.
+
+Hypotheses behave the opposite way, and this is what convergence looks like from inside: a
+question opens several at once, then they close one by one as claims get cross checked against
+a second, independent source. **Open questions multiplying is early. Open questions closing is
+the archive working.** If nothing has closed in a long time, the cross checks are not being
+done.
+
+## On recording how someone behaved
+
+You will be asked to record that someone helped, refused, delayed or delivered. Record it the
+way you record everything else: **the dated fact, in their file, with no verdict attached.**
+On this date, this was asked, and this is what happened.
+
+Do not build a cooperation score, a reliability rating, a per person marker or a tally, and do
+not invent a frontmatter field for one. If the human asks for a scoreboard, that is their call
+to make explicitly, not yours to introduce. The reasoning is in `METHOD.md`, section 7: a
+dated fact ages honestly, a stored verdict does not, and "he did not help with X on the 14th"
+survives six months in a way "he is uncooperative" never will.
 
 ## What you are not
 

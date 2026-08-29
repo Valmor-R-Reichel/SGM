@@ -16,6 +16,11 @@
 
 ## 0. The problem this system solves
 
+The starting idea was not mine. It came from Andrej Karpathy: small markdown files with the
+model as the processor over them, rather than a database with the model as a query interface.
+It is a good idea and it is not the hard part, which is what the rest of this section is
+about.
+
 Three earlier attempts at organizing the same knowledge failed, and all three failed the
 same way. **They produced too many files, not too few.**
 
@@ -60,7 +65,13 @@ someone asking how you know that.
 
 ---
 
-## 1. The golden rule
+## 1. The golden rule, and the two gates after it
+
+Most systems of this kind describe only how information gets in. That is why they grow
+forever, and it is why the three attempts before this one ended as warehouses. Information
+here has three states, and each one has a gate.
+
+### Enters
 
 > **A piece of information becomes a file only if it will still be true in six months, or
 > if it explains why a decision was made.**
@@ -70,6 +81,48 @@ Everything that fails that test stays in the session log and never becomes a not
 The reasoning: without a durability filter, the system accumulates whatever passed in front
 of it and takes on the appearance of organization with no ability to answer anything. The
 six month test is what separates knowledge from record keeping.
+
+### Stays
+
+Nothing stays by default at the level it entered. A claim enters at low confidence and climbs
+only on independent evidence, by the test in section 6.
+
+**A claim that never earns a second independent source stays a hypothesis, permanently.** That
+is not a defect and it is not a queue of unfinished work. Some things are true, useful,
+and observed once, and the honest way to keep them is as something observed once. The failure
+mode this prevents is the quiet promotion: a reading of mine, re-observed three times, that
+arrives with a date and a source attached and starts to look like data.
+
+### Leaves
+
+Two doors, and only two.
+
+1. **An ambiguity gets resolved.** Two sources disagreed, the doubt was pulled out of the note
+   into an open questions file, and later the answer arrives. The wrong version is deleted.
+   The mechanics are below, under *no note carries ambiguity*.
+2. **A rule falls below fifty percent measured adherence.** Not revoked automatically: it goes
+   back on the table with the count beside it, and is either rewritten to match what actually
+   happens or dropped. Two rules have already gone that way. Section 11 has the numbers.
+
+And the principle that makes this gate safe to use:
+
+> **Leaving is a write, not a delete.** The wrong version is removed. The fact that it existed,
+> and why it fell, stays in one line. Nothing leaves silently.
+
+That single line is the whole difference between an archive that shrinks and an archive that
+loses its memory. Deleting the wrong answer without recording that it was tried means someone
+redoes the investigation in a year and arrives at the same wrong answer, with no way to know
+it had already been rejected.
+
+### The exit runs through the same ritual as the entry
+
+Removing is a decision, and decisions go through the gate: same funnel, same triage, same
+click. Nothing is deleted outside the log ritual, by a script or by an agent tidying up on its
+own initiative.
+
+**The funnel is not the front door. It is the door.** Everything is being evaluated, all the
+time, in both directions, and that is what keeps the archive the same size as the part of it
+that is still true.
 
 ---
 
@@ -94,6 +147,25 @@ decided is useful the next time you have to decide.
 opposite of it first. A weak hypothesis collapses on its own against the evidence sitting in
 the same session when it is tested this way, and the conclusion that survives is stronger
 for having faced the opposite case, not for having been accepted on the first pass.
+
+**Where this comes from, and what it is actually defending against.** The habit is older than
+the system: thesis, then antithesis, and what is learned from the collision rather than from
+either side. It is how I think through a problem when nobody is watching, so it went into the
+rules rather than staying a preference.
+
+But it earns its place here for a reason that has nothing to do with philosophy. **A model
+agrees too easily.** Hand it a hypothesis and it hands the hypothesis back, better dressed
+and sounding more certain than when it left. That is not a flaw you can prompt away by asking
+for honesty, because the agreement is not dishonest, it is the shape of what the thing does.
+Forcing the antithesis is a structural fix rather than a request: the model has to go back to
+the evidence in the log to build the counter case, and going back to the evidence is the only
+thing that makes it stop going back to me.
+
+The observable effect is specific. Instead of confirming that a delay happened for the reason
+I suggested, it comes back with *this person said that on this date and this other one said
+this on that date*, and the two do not fit my story. That is the check working. The
+conclusions got better once it was in place, and the reason they got better is that fewer of
+them were mine.
 
 ---
 
@@ -248,23 +320,41 @@ freeze the branch without protecting anything.
 
 ---
 
-## 7. The cooperation marker, and how it shapes future collaboration
+## 7. Game theory as a foundation, not as a feature
 
-A second mechanism runs alongside the writing funnel: a marker per person, cooperated or
-did not cooperate, updated after each meaningful interaction. This is not general trust. It
-is a specific scoreboard, updated round by round, in the sense the term is used in game
-theory.
+Underneath the people files there is a way of thinking about repeated interaction, and it is
+worth naming because it explains why those files record what they record.
 
-The use: before deciding how much to help someone again, check the scoreboard first.
-Unconditional cooperation has a cost that only shows up later, it turns into always being
-the one who solves things and never being helped back. Round by round, weigh what is gained
-by helping against what is gained by not, and the other person knows this is how the
-weighing works. It is not silent manipulation, it is a declared rule.
+Unconditional cooperation has a cost that only shows up later. It turns into being the one
+who always solves things and never gets helped back. The alternative is not to keep score
+against people, it is to decide round by round: what is gained by helping here, what is
+gained by not, and what the last few rounds actually looked like. The other person knowing
+that this is how the weighing works is part of it. A declared rule is not manipulation.
 
-This is not the neutral fact recording the rest of the system produces. It is a relational
-decision instrument, built on the same habit of dating evidence that everything else here
-uses. The difference is that the output here is not a note, it is a calibration of future
-behavior.
+**What that means in practice is smaller than it sounds, and it matters that it is smaller.**
+
+There is no marker, no field, no per person score. What exists is the ordinary dated fact,
+in the person's file, written the same way every other fact in this system is written: *on
+this date, asked for this, and this is what happened.* No adjective, no verdict, no tally.
+
+The weighing happens at the moment of deciding, by the person deciding, with the file open.
+The archive holds the evidence. The human does the arithmetic.
+
+**This is deliberate, and the reasoning is the same one that runs through the rest of this
+document.** A dedicated cooperation score would be a judgment stored as data. Six months on,
+nobody remembers the context that produced it, and a bad week for someone reads as a
+permanent property of them. The dated fact ages honestly. The score does not.
+
+It also fails the golden rule on its own terms. *"He did not help with X on the 14th"* will
+still be true in six months. *"He is uncooperative"* is a conclusion, and conclusions age
+while the reasoning behind them teaches.
+
+> A note about what this section used to say. An earlier version of this document described a
+> per person marker updated after every interaction, as if it were a running mechanism. It was
+> not. Nothing like it exists in the archive this method runs on. The description was coherent
+> and its provenance was false: the third failure mode in `WALKTHROUGH.md`, a plausible
+> mechanism nobody built. It is left recorded here rather than quietly rewritten, because
+> that is what the exit rule in section 5 requires.
 
 ---
 
@@ -297,6 +387,22 @@ The boundary that holds the design together:
 
 > **What is deterministic belongs to the machine. What requires judgment belongs to the
 > human.**
+
+Stated abstractly that is easy to agree with and hard to apply, so here is the operational
+version, which says which part goes where:
+
+> **The machine takes the emotional part out and keeps only facts that can be proved. The
+> emotional part stays with me.**
+
+That is most of what the rules in this document are for. Not to make the agent smarter, but
+to strip a working session down to what somebody said, on what date, in what channel, and
+leave the reading of what it meant to the person who was in the room. A reading can still be
+recorded, but it gets marked as a hypothesis and it never arrives dressed as a fact.
+
+It also explains a division that looks strange from outside: the archive is at its most
+useful on exactly the interactions where feelings are running highest, and it is on those
+that it says the least. It holds the dated facts about a difficult conversation. What to do
+with them is not delegable, and the sentence above is the reason why.
 
 Four hard rules come out of it:
 
@@ -347,6 +453,44 @@ None of these is sophisticated. Each one solves a measured problem.
 Dependencies: a standard script interpreter, no external libraries. The choice is
 deliberate. A corporate machine without administrator rights installs nothing, and a system
 that depends on installation dies on the first new machine.
+
+### The deterministic layer, described rather than shipped
+
+In the running system, the pieces above are one script of roughly 1,400 lines. It is not in
+this repository, for two reasons: it is shaped to one archive's folder names and conventions,
+so it would not run on yours, and auditing it line by line for anything that names an employer
+is work that has not been done. What is worth taking from it is not the code, it is the
+constraint written at the top of it:
+
+> **It proposes, it never decides. No subcommand writes inside the archive.**
+
+The commands that read are unrestricted: state of the archive, regenerate the index, run the
+validations, scaffold an empty file. **Exactly one subcommand writes**, and all it does is
+type out a plan that a human already approved item by item, closing the other side of each
+link and stamping the dates. An invalid block cancels the entire plan rather than applying
+part of it.
+
+That is the machine and human boundary implemented as a property of the tool rather than as a
+policy someone has to remember. The script cannot decide what enters even if asked, because
+nothing in it can write to the archive without a plan, and nothing produces a plan except the
+ritual with the gate in it. What was automated is the typing. What was not automated is the
+judgment.
+
+### Two agents, one of them read only
+
+The archive is read by more than one assistant, which creates a problem the rest of this
+document does not cover: a second agent, working on a different question, editing files
+nobody asked it to edit.
+
+The arrangement that solved it: **one agent operates on the archive, the others read a mirror
+that is a locked copy.** The mirror is regenerated by script, it is never a destination for
+writing, and anything an external agent produces lands in a drafts folder inside the mirror.
+To enter the archive it goes through the funnel in section 2 like any other source.
+
+The principle generalizes past the specific setup. Read access is cheap and safe to hand out.
+Write access is the thing being governed, and it belongs to one path with a gate on it. An
+agent that can read everything and write nothing cannot damage an archive no matter how wrong
+it is.
 
 ---
 
