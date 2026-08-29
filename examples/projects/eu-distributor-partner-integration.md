@@ -5,6 +5,9 @@ updated: 2027-02-10
 sources: [call-2027-02-03, checkin-2027-02-04, standup-2027-02-06, slack-2027-02-10]
 ---
 
+> Fictional example. Meridian Robotics does not exist. See `examples/README.md`.
+
+
 # EU distributor partner integration
 
 Cumulative file. No `confidence:` in the frontmatter, for the same reason as a person file:

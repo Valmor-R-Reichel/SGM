@@ -6,6 +6,9 @@ confidence: high
 sources: [call-2027-02-03, slack-2027-02-10]
 ---
 
+> Fictional example. Meridian Robotics does not exist. See `examples/README.md`.
+
+
 # The liability clause was never the real blocker on the EU distributor deal
 
 ## What happened

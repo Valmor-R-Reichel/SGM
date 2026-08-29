@@ -5,6 +5,9 @@ updated: 2027-02-10
 sources: [call-2027-02-03, checkin-2027-02-04, slack-2027-02-10]
 ---
 
+> Fictional example. Meridian Robotics does not exist. See `examples/README.md`.
+
+
 # Priya Nandan, VP Partnerships at Meridian Robotics
 
 Cumulative file. No `confidence:` in the frontmatter, because a file with several claims
