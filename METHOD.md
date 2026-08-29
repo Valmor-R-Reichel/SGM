@@ -314,12 +314,12 @@ The full circuit:
 
 ```
 learning during the session
-   â””â”€> raw log             (immediate append, one line, any session, zero cost)
-        â””â”€> log skill      (gate: capture midweek, consolidate once or twice a week)
-             â””â”€> funnel    (observe, check, understand, comprehend, record)
-                  â””â”€> triage plus click approval
-                       â””â”€> branches
-                            â””â”€> script regenerates index, map and mirror
+  -> raw log             (immediate append, one line, any session, zero cost)
+    -> log skill          (gate: capture midweek, consolidate once or twice a week)
+      -> funnel           (observe, check, understand, comprehend, record)
+        -> triage plus click approval
+          -> branches
+            -> script regenerates index, map and mirror
 ```
 
 The raw log is the most underrated piece. It exists because **a learning captured in the
