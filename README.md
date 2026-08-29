@@ -100,8 +100,10 @@ would be strange. What I do not delegate is the judgment about what stays.
 
 ## Status
 
-A first version ran daily from June 2026. It was torn down and rebuilt from scratch in
-August, for the reason described above, and has been running since.
+This is not the first attempt at this. An earlier, differently designed personal system ran
+before it, and the section above describes what did not work about it. Nothing from that
+system was migrated into this one, only the lessons about why it broke. This version was
+built from scratch starting in August 2026, and has been running daily since.
 
 The full method is in [`METHOD.md`](METHOD.md). `AGENT.md` and `examples/` turn it into
 something you can run today, on your own archive.
