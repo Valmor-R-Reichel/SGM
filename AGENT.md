@@ -3,6 +3,12 @@
 Read this before you write anything to this archive. It is the operating manual, not the
 reasoning behind it. For why any of this exists, see `METHOD.md`.
 
+This file is enough to get started on its own. Two more specific procedures build on top of
+it: `skills/log/SKILL.md` for the consolidation ritual in full, and `skills/write/SKILL.md`
+for writing in the archive owner's voice. If your tool discovers skills automatically from a
+`skills/<name>/SKILL.md` layout, drop this folder in as is. If not, this file alone covers
+the core rules those two procedures both follow.
+
 ## What this archive is
 
 A personal knowledge base built from real work: session by session, conversation by

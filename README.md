@@ -5,9 +5,8 @@ human stays accountable for.
 
 It is a set of rules about three things: what earns a place in the archive, how a claim
 carries its own evidence, and where the line sits between what a machine may decide and
-what a person must. The tooling underneath is deliberately thin. Plain markdown files, a
-script with no external dependencies, and an agent that reads the rules before it writes
-anything.
+what a person must. The tooling underneath is deliberately thin. Plain markdown files and an
+agent that reads the rules before it writes anything, nothing else required to start.
 
 > You do not need to know the tool. You need to know the reasoning.
 
@@ -62,10 +61,22 @@ when it was measured. The rule that replaced the second one, requiring a comment
 links that cross between branches, was last measured at 53 percent and stays for now, a
 number that is expected to drift as the archive grows and has not been rechecked since.
 
+## Repository layout
+
+```
+README.md            you are here
+METHOD.md            the full method, and the reasoning behind each choice
+AGENT.md             paste this into your assistant to start running the method
+skills/
+  log/SKILL.md        the consolidation ritual, in full: modes, triage, the closing report
+  write/SKILL.md      writing in the archive owner's voice, calibrated by profile/
+examples/            synthetic notes from a fictional company, showing the format filled in
+```
+
 ## Getting started
 
-`AGENT.md` is the piece that makes this executable rather than just a description. Paste it
-into your assistant as a system prompt or project instructions, then:
+`AGENT.md` is enough on its own to make this executable rather than just a description.
+Paste it into your assistant as a system prompt or project instructions, then:
 
 1. Create four folders: `people/`, `decisions/`, `projects/`, `profile/`. Add more only once
    three or more things stop fitting the ones you have.
@@ -78,8 +89,15 @@ into your assistant as a system prompt or project instructions, then:
 5. Look at `examples/` for what a finished note looks like: a claim as a title, a source, a
    confidence level attached to the sentence that earned it.
 
-The reasoning behind every rule in `AGENT.md` is in `METHOD.md`. You do not need to read it
-to get started, it is where "why this and not something simpler" gets answered.
+If your assistant discovers skills automatically from a `skills/<name>/SKILL.md` layout,
+drop the `skills/` folder in too. `log` turns the consolidation ritual into its own
+invocable procedure instead of a paragraph inside `AGENT.md`, and `write` is a second one
+this starter kit did not have before: drafting messages in the archive owner's own voice,
+calibrated against whatever `profile/` has accumulated so far, and honest about writing
+generically when it has not accumulated anything yet.
+
+The reasoning behind every rule here is in `METHOD.md`. You do not need to read it to get
+started, it is where "why this and not something simpler" gets answered.
 
 ## Limits
 
@@ -105,8 +123,8 @@ before it, and the section above describes what did not work about it. Nothing f
 system was migrated into this one, only the lessons about why it broke. This version was
 built from scratch starting in August 2026, and has been running daily since.
 
-The full method is in [`METHOD.md`](METHOD.md). `AGENT.md` and `examples/` turn it into
-something you can run today, on your own archive.
+The full method is in [`METHOD.md`](METHOD.md). `AGENT.md`, `skills/`, and `examples/` turn
+it into something you can run today, on your own archive.
 
 ## License
 

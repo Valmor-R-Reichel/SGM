@@ -26,6 +26,8 @@
 !docs/**/*.md
 !examples/**/*.md
 !examples/**/
+!skills/**/*.md
+!skills/**/
 !assets/**/*.png
 !assets/**/*.svg
 
