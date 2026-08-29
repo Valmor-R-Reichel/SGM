@@ -53,6 +53,15 @@ could genuinely disappear (a channel the human might leave, a person who might n
 reachable, a message with a retention limit), in which case save it and say explicitly why
 you broke the rule.
 
+**2.5. Argue the opposite, on every conclusion, before it reaches a bucket.** For each thing
+you are about to propose as a fact, state it, then state the strongest case against it using
+only what is in the raw log. Show both in your response, not just the survivor. A conclusion
+that does not survive is dropped, or proposed as a `hypothesis:` instead.
+
+This is the step that most often fails while appearing to run. If the counter case is
+assembled out of what the human seems to want to hear, nothing was tested. It has to be built
+from dated evidence in the log, and going back to that evidence is the whole point.
+
 **3. Sort into three buckets before writing anything.** This is the gate, and nothing skips
 it:
 - **Discard.** Noise or short lived. Stays noted in the closing report with a one line
