@@ -329,6 +329,10 @@ moment costs one line, and reconstructed at the end of the week costs the whole 
 
 ## 10. The tooling, and what each piece solves
 
+None of this ships with this repository, which is deliberately just markdown. This section
+describes what the mature system ended up needing, so you know what to build toward as your
+own archive grows, and in what order the need actually appeared.
+
 None of these is sophisticated. Each one solves a measured problem.
 
 | piece | solves |
@@ -356,8 +360,8 @@ exactly what killed the three earlier attempts. The curve makes it visible:
 
 | period (August) | notes created | notes updated | ratio |
 |---|---|---|---|
-| days 1 to 3 | 61 | 42 | **1.45** |
-| days 4 to 7 | 19 | 37 | **0.51** |
+| the first three active days | 61 | 42 | **1.45** |
+| the four days after those | 19 | 37 | **0.51** |
 
 Production fell by 69 percent and the archive got better, not worse. A metric that points
 down while the thing improves is measuring the wrong quantity.

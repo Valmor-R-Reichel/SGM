@@ -10,6 +10,27 @@ agent that reads the rules before it writes anything, nothing else required to s
 
 > You do not need to know the tool. You need to know the reasoning.
 
+## How it runs
+
+```mermaid
+flowchart TD
+    A["work session"] -->|"capture: one line, costs nothing"| B["raw-log.md"]
+    B -->|"accumulates across sessions"| C{"log skill"}
+    C --> D["funnel: observe, check,<br/>understand, comprehend, record"]
+    D --> E["triage into 3 buckets:<br/>discard / new / conflicting"]
+    E -->|"human approves, item by item"| F["the archive"]
+    F --> G["people/ decisions/ projects/"]
+    F --> H["profile/<br/>how you write and decide"]
+    H -->|"reads what the archive<br/>learned about you"| I{"write skill"}
+    I -->|"draft in your voice"| J["you edit it"]
+    J -.->|"the edit is evidence,<br/>routed back through the log"| B
+```
+
+Two skills, two directions. One puts information **into** the archive and learns how you
+work while doing it. The other uses what the archive learned to write **as** you. The loop
+closes through the log skill rather than writing back directly, so there is one account of
+how you work, not two competing ones.
+
 ## The problem it solves
 
 Three earlier attempts at organizing the same knowledge failed, and all three failed the
