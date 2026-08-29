@@ -84,13 +84,20 @@ number that is expected to drift as the archive grows and has not been rechecked
 
 ## Repository layout
 
+`AGENT.md` is the center. It is the only file an assistant has to read before it can start
+working, and everything else here builds on top of it, not before it.
+
 ```
 README.md            you are here
-METHOD.md            the full method, and the reasoning behind each choice
-AGENT.md             paste this into your assistant to start running the method
-skills/
-  log/SKILL.md        the consolidation ritual, in full: modes, triage, the closing report
-  write/SKILL.md      writing in the archive owner's voice, calibrated by profile/
+
+AGENT.md             <- start here. paste this into your assistant, that alone runs it
+  |
+  +-- skills/
+  |     log/SKILL.md      the consolidation ritual, in full: modes, triage, closing report
+  |     write/SKILL.md    writing in the archive owner's voice, calibrated by profile/
+  |
+  +-- METHOD.md      the reasoning behind every rule in AGENT.md, read only if you want why
+
 examples/            synthetic notes from a fictional company, showing the format filled in
 ```
 

@@ -1,13 +1,16 @@
 # Agent Instructions
 
-Read this before you write anything to this archive. It is the operating manual, not the
-reasoning behind it. For why any of this exists, see `METHOD.md`.
+**This is the center.** Every session that touches this archive reads this file first,
+before opening anything else, before writing a single line. It is the hub, everything else
+in this repository is a spoke: `skills/log/SKILL.md` and `skills/write/SKILL.md` are the two
+procedures that build on what is written here, and `METHOD.md` is where the reasoning behind
+each rule lives if you need it. Nothing here sends you outward before you have read this
+file all the way through once.
 
-This file is enough to get started on its own. Two more specific procedures build on top of
-it: `skills/log/SKILL.md` for the consolidation ritual in full, and `skills/write/SKILL.md`
-for writing in the archive owner's voice. If your tool discovers skills automatically from a
-`skills/<name>/SKILL.md` layout, drop this folder in as is. If not, this file alone covers
-the core rules those two procedures both follow.
+This file is enough to get started on its own. If your tool discovers skills automatically
+from a `skills/<name>/SKILL.md` layout, drop that folder in too, `log` and `write` turn into
+their own invocable procedures instead of paragraphs. If not, this file alone covers the
+core rules both of them follow.
 
 ## What this archive is
 
