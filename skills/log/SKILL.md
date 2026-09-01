@@ -75,6 +75,13 @@ item, a click or a clear go ahead, not silence and not a change of subject. If y
 supports a structured choice prompt, use it instead of free text, a gate that asks the human
 to compose their own authorization turns into a rubber stamp over time.
 
+A single piece of evidence about a person, or about how the human works, is not a reason to
+discard it. The confidence ladder in `AGENT.md` already treats one observation as the normal
+starting point, rising later as independent evidence adds up. Put it in New at low confidence,
+with its source and date, instead of holding it back to wait for a second occurrence. When
+that second or third occurrence shows up, raise the confidence on the same line, do not open a
+new pending item for it.
+
 **4. Filter what got approved through the golden rule again.** A piece of information
 becomes a file only if it will still be true in six months, or if it explains why a decision
 was made. When in doubt, leave it in the log rather than promoting it, promoting later is
@@ -93,7 +100,9 @@ later whether the filter is too tight or too loose.
 ## What to report at the end
 
 1. What got added, one reason per item.
-2. What got discarded, and why.
+2. What got discarded, and why. If this list starts filling up with items discarded for
+   lacking a second occurrence, that is a sign the sorting step above was not followed, a
+   single observation belongs in New at low confidence, not here.
 3. Any contradictions the session raised.
 4. What is still a hypothesis, and how much evidence it has so far.
 5. At most two open questions, the ones that unblock the most.
