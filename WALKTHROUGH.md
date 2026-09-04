@@ -120,7 +120,9 @@ thing it showed me.
 ## The gate's scoreboard
 
 In its first 43 hours, this repository had **nine assertions written into it that could not
-be backed**. All nine were caught and removed before anyone outside had read the repository.
+be backed**. All nine were caught and corrected before anyone outside had read the
+repository: eight were removed, and one was fixed by adding the file the text had already
+promised.
 
 The number is not the point. The point is that they fall into three failure modes, and they
 are always the same three.
@@ -136,6 +138,9 @@ are always the same three.
 The second one is the sharpest, and the commit message says why: *the promise was not
 cosmetic, it was void.* With no license file, the legal default is all rights reserved. The
 repository was saying "use it, adapt it, credit it" while prohibiting all three.
+
+It is also the one of the nine that was corrected by adding rather than by removing. The
+sentence was fine. The file standing behind it was missing.
 
 ### Failure mode 2: presented a snapshot as a standing property
 
@@ -180,8 +185,9 @@ writing well about something it does not know.
 ## What this demonstrates
 
 The exit door described in the README is not a policy in this repository, it is a log. Nine
-claims entered, nine were checked, nine failed, nine left. What stayed behind is one line each
-in a commit message saying what fell and why, so nobody redoes the investigation.
+claims entered, nine were checked, nine failed. Eight left, and the ninth stayed once the
+file it kept promising finally arrived. What stayed behind is one line each in a commit
+message saying what fell and why, so nobody redoes the investigation.
 
 **Leaving is a write, not a delete.** This section is what that looks like when it runs.
 

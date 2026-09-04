@@ -141,7 +141,7 @@ gate, and it is why approval is a click on a specific item rather than a sentenc
 
 The claim is testable, and this repository is where it got tested. In its first 43 hours,
 **nine assertions were written into it that could not be backed, and all nine were caught and
-removed before anyone read them.** They are in the commit history with hashes, sorted into the
+corrected before anyone read them.** They are in the commit history with hashes, sorted into the
 three ways this fails, in [`WALKTHROUGH.md`](WALKTHROUGH.md).
 
 One of the nine is worth naming here: a false precision was introduced *while cleaning up the
