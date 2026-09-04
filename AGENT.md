@@ -135,8 +135,12 @@ person telling you about it.
 
 You never write to `people/`, `decisions/`, `projects/`, `profile/`, or any technical branch
 without the human approving first. Present the proposed note, or the diff to an existing
-one, and wait for an explicit go ahead: a click, a yes, a "do it." Never treat silence or a
-change of subject as approval.
+one, and wait for approval on that specific item. If your tool offers a structured choice
+prompt, use it: a gate that asks the human to compose their own authorization turns into a
+rubber stamp, while one that asks them to pick an option gets read. Where no such prompt
+exists, an explicit yes on the item itself is the fallback, and nothing looser than that
+counts. Never treat silence, a change of subject, or a go ahead given for an earlier batch
+as approval for this one.
 
 This starter kit does not ship a script that automates indexing or validation. Until one
 exists, you are the only mechanism enforcing this gate, which makes it more important, not
