@@ -245,6 +245,20 @@ strange. What I do not delegate is the judgment about what stays.
 
 ## Status
 
+**This describes the system as it stood on 3 September 2026.** It is one person's working
+setup, and it changes most weeks. What changes slowly is the reasoning, and the reasoning is
+what this repository is for.
+
+The files in `skills/` are a dated distillation of what runs here, not a mirror of it. They
+are rewritten to work without the scripts my own archive depends on, so that someone starting
+from an empty folder can run them. The live version has already moved past this cut. It now
+has a semantic review routine that reads back what is already written, looking for two notes
+that contradict each other and for a claim that a newer source has already overturned without
+anyone marking it. That routine is not in this kit.
+
+Read the date above as part of the content. A method that improves is a method whose
+description goes out of date, and the cheap answer to that is saying when it was true.
+
 This is not the first attempt at this. An earlier, differently designed personal system ran
 before it, and the problem section above describes what did not work about it. Nothing from
 that system was migrated into this one, only the lessons about why it broke. This version was
