@@ -17,8 +17,7 @@ does not have a single confidence level. Each claim below carries its own.
 
 She pushes for speed over certainty when a deal stalls, and states the tradeoff out loud
 rather than hiding it: "the moment we blink they go talk to the other vendor."
-`[medium · 2ev: checkin 02/04 · pattern repeated in a separate deal on 01/14, not detailed
-in this example file]`
+`[low · 1ev: checkin 02/04]`
 
 See [[the-liability-clause-was-never-the-real-blocker]] for the case where this instinct
 was right for a reason she did not name at the time.

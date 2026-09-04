@@ -3,7 +3,7 @@ branch: decisions
 created: 2027-02-10
 updated: 2027-02-10
 confidence: high
-sources: [call-2027-02-03, slack-2027-02-10]
+sources: [call-2027-02-03, checkin-2027-02-04, standup-2027-02-06, slack-2027-02-10]
 ---
 
 > Fictional example. Meridian Robotics does not exist. See `examples/README.md`.
@@ -25,9 +25,9 @@ confirming no pushback]`
 
 ## Why this matters more than it looks
 
-The clause was real, and fixing it was still worth doing. But the actual delay was reused
-from Priya's opinion in the 02/04 check in, that pushing now mattered more than waiting for
-a perfect draft. The clause explanation was a legitimate problem attached to the wrong
+The clause was real, and fixing it was still worth doing. But what actually moved the deal
+was Priya's call in the 02/04 check in, that pushing now mattered more than waiting for a
+perfect draft. The clause explanation was a legitimate problem attached to the wrong
 cause.
 
 `hypothesis:` when a stuck deal gets one specific technical explanation this early and this

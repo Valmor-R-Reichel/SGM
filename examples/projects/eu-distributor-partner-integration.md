@@ -20,8 +20,8 @@ update needed for the region's data processing requirements.
 
 ## Status
 
-🟡 in progress, as of 2027-02-10. Contract sent, no pushback from the distributor. Waiting
-on their signature to move to the technical integration phase.
+🟡 in progress, as of 2027-02-10. The updated clause went out on 02/06, and the distributor
+accepted it on 02/10 with no pushback.
 
 ## History
 
@@ -32,11 +32,12 @@ on their signature to move to the technical integration phase.
 | 2027-02-06 | updated clause sent to the distributor |
 | 2027-02-10 | distributor accepted with no pushback, see [[the-liability-clause-was-never-the-real-blocker]] |
 
-## Open risks
+## Still unknown, do not guess
 
-1. **The technical integration phase has no owner assigned yet.** Nobody has raised this as
-   urgent, but the contract phase closing soon means it will be the next blocker if it stays
-   unassigned.
+1. **Whether the distributor has signed.** Acceptance of the clause is recorded. A signature
+   is not, and the two are not the same thing.
+2. **Who owns the technical integration phase.** Nothing in the raw log names an owner, and
+   the archive does not fill that in with whoever would be plausible.
 
 ## connects to
 
