@@ -37,6 +37,7 @@ flowchart TD
     A["work session"] -->|"capture: one line, costs nothing"| B["raw-log.md"]
     B -->|"accumulates across sessions"| C{"log skill"}
     C --> D["funnel: observe, check,<br/>understand, comprehend, record"]
+    C -.->|"consolidated lines roll over,<br/>dated, never edited again"| K["processed-logs/"]
     D --> E["triage into 3 buckets:<br/>discard / new / conflicting"]
     E -->|"human approves, item by item"| F["the archive"]
     F --> G["people/ decisions/ projects/"]

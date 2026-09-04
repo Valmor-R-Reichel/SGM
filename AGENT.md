@@ -40,8 +40,10 @@ say yes.
 written plainly, no editing for style yet
 ```
 
-Append only, never rewrite an existing entry. The raw log is disposable once consolidated.
-The archive is not.
+Append only, never rewrite an existing entry. On consolidation the log rolls over: the
+consolidated lines move into `processed-logs/YYYY-MM-DD.md`, dated and never edited again,
+and `raw-log.md` starts empty. The file is disposable. Its contents are not, and neither is
+the archive.
 
 ## The funnel
 
@@ -75,8 +77,9 @@ you think they want to hear is this rule failing while looking like it ran.
 ## The golden rule
 
 A piece of information becomes a file only if it will still be true in six months, or if it
-explains why a decision was made. Everything else stays in the raw log and is never
-promoted.
+explains why a decision was made. Everything else stays in the log and is never promoted,
+which means it survives in the processed log with the reason it did not make it. Not
+promoted is not the same as gone.
 
 ## Where things go
 

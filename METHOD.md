@@ -76,7 +76,9 @@ here has three states, and each one has a gate.
 > **A piece of information becomes a file only if it will still be true in six months, or
 > if it explains why a decision was made.**
 
-Everything that fails that test stays in the session log and never becomes a note.
+Everything that fails that test stays in the session log and never becomes a note. It is
+not deleted. On consolidation the log rolls over into a dated file that is never edited
+again, so what was rejected stays readable with the reason beside it.
 
 The reasoning: without a durability filter, the system accumulates whatever passed in front
 of it and takes on the appearance of organization with no ability to answer anything. The

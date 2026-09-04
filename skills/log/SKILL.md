@@ -91,9 +91,15 @@ cheap, cleaning up a cluttered archive later is not.
 link you add: if a decision points at a person, that person's file should point back, with
 a comment explaining why, whenever the link crosses branches.
 
-**6. Close.** Clear the consolidated part of `raw-log.md`. Keep a short note of what did
-**not** survive and why, this line matters as much as what did, it is what lets anyone audit
-later whether the filter is too tight or too loose.
+**6. Close.** Roll the consolidated part of `raw-log.md` over into
+`processed-logs/YYYY-MM-DD.md`, dated and never edited again, and leave `raw-log.md` empty.
+Nothing is deleted here: what did not survive stays readable in that file, and the closing
+report carries one line saying why for each. That line matters as much as what did survive,
+it is what lets anyone audit later whether the filter is too tight or too loose.
+
+One exception, and it has to be respected: a line the human deliberately held back, because
+it is waiting on something that has not happened yet, stays in `raw-log.md` and does not
+roll over.
 
 ---
 
