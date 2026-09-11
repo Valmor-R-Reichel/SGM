@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Two distant points inside the lit field joined by a seam that follows neither axis">
+  <path d="M96 342 L616 52 L616 330 L110 330 Z" fill="#d98a2b" fill-opacity="0.10"/>
+  <g fill="#8b949e" opacity="0.55">
+    <circle cx="168" cy="188" r="3.5"/><circle cx="232" cy="286" r="3.5"/><circle cx="264" cy="142" r="3.5"/>
+    <circle cx="318" cy="252" r="3.5"/><circle cx="352" cy="176" r="3.5"/><circle cx="396" cy="292" r="3.5"/>
+    <circle cx="424" cy="150" r="3.5"/><circle cx="462" cy="236" r="3.5"/><circle cx="498" cy="188" r="3.5"/>
+    <circle cx="212" cy="220" r="3.5"/><circle cx="286" cy="312" r="3.5"/><circle cx="368" cy="112" r="3.5"/>
+    <circle cx="444" cy="300" r="3.5"/><circle cx="516" cy="262" r="3.5"/><circle cx="562" cy="196" r="3.5"/>
+    <circle cx="150" cy="290" r="3.5"/>
+  </g>
+  <path d="M190 262 C300 92, 400 332, 540 122" fill="none" stroke="#6b8fd4" stroke-width="9" opacity="0.16" stroke-linecap="round"/>
+  <path d="M190 262 C300 92, 400 332, 540 122" fill="none" stroke="#6b8fd4" stroke-width="2.2" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <circle cx="190" cy="262" r="6.5" fill="#7d8590"/>
+  <circle cx="540" cy="122" r="6.5" fill="#7d8590"/>
+  <text x="190" y="288" font-family="Georgia, serif" font-size="13" fill="#8b949e" text-anchor="middle">A</text>
+  <text x="540" y="110" font-family="Georgia, serif" font-size="13" fill="#8b949e" text-anchor="middle">B</text>
+  <line x1="110" y1="50" x2="110" y2="330" stroke="#8b949e" stroke-width="1.4"/>
+  <line x1="110" y1="330" x2="618" y2="330" stroke="#8b949e" stroke-width="1.4"/>
+  <g transform="translate(52,352) rotate(-26)">
+    <rect x="0" y="-6" width="30" height="12" rx="2" fill="#7d8590"/>
+    <polygon points="30,-9 43,-14 43,14 30,9" fill="#d98a2b"/>
+  </g>
+  <text x="596" y="354" font-family="Georgia, serif" font-size="13" fill="#8b949e" text-anchor="end">the axes no longer carry the answer</text>
+</svg>
