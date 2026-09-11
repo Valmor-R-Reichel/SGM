@@ -42,9 +42,10 @@ at a time.
 
 ![Context reach rising over time beneath a ceiling that shifts upward](assets/fig-1-reach.svg)
 
-*Figure 1. Reach against time. There is a theoretical ceiling: the bytes, the floor of
-everything that can be represented. It moves up every time context improves, which is why it
-is drawn twice. The shape is the claim here, not the scale.*
+*Figure 1. Reach against time, drawn as steps because that is how it arrives. There is a
+theoretical ceiling: the bytes, the floor of everything that can be represented. It moves up
+every time context improves, which is why it is drawn twice. The shape is the claim here, not
+the scale.*
 
 ## The cone widens until it covers the field
 
@@ -60,8 +61,8 @@ that marginal gain collapses. A stronger beam stops showing you more.
 
 *Figure 2. As reach grows, what an additional unit of it buys falls, on the solid line. The
 number of pairs available inside the lit field grows, on the dashed one. Where they cross, the
-cheaper move stops being more light and starts being better connections. No measurement is
-claimed here.*
+cheaper move stops being more light and starts being better connections. The next figure is
+why the dashed line climbs. No measurement is claimed here.*
 
 ## A shortcut between points that never touch
 
@@ -100,6 +101,31 @@ Which is why the method makes one demand that looks like bureaucracy and is not.
 crosses branches has to carry the reason for the link, written out next to it. The two files
 will still be there in two years. The reason they were joined will not, unless someone wrote
 it down. The comment on the link is the subcontext, stored.
+
+## Why this cannot be brute forced
+
+There is an arithmetic problem underneath all of this, and it is the reason the answer has to
+be a method rather than a bigger machine.
+
+Points inside the lit field arrive one at a time. The pairs between them do not. Ten points
+make 45 pairs. A hundred points make 4,950. A thousand points make close to half a million.
+The field grows by addition while the connections grow by multiplication.
+
+![Available pairs grow quadratically while the number a person can check stays flat](assets/fig-3-pairs.svg)
+
+*Figure 3. Available pairs against the count of points. The flat dashed line is not a claim
+about machines. It is a claim about a person, whose capacity to read a connection and judge
+whether it means anything stays roughly the same from one week to the next.*
+
+That gap does not close by trying harder. It is the shape of the arithmetic, and it opens
+almost immediately.
+
+So one question is left, and it is not a technical one. Out of everything available, which
+connections get looked at?
+
+Answering by enumeration stops being possible within the first few dozen notes. Answering by
+taste is how archives rot, because taste leaves no record and cannot be argued with later.
+What remains is answering by rule: written down, revisable, with the reason attached.
 
 ## The RNA of context
 

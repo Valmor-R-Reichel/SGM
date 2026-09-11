@@ -1,5 +1,20 @@
 # SGM, a System for Governed Memory
 
+A method for deciding what an AI assistant is allowed to remember about your work, and who
+answers for it when what it remembered turns out to be wrong.
+
+| if you want | open |
+|---|---|
+| **to see it work**, on one case, from a raw line to three connected notes | [`WALKTHROUGH.md`](WALKTHROUGH.md) |
+| **to see it fail**, the nine claims this repository wrote in its first 43 hours that could not be backed, each with the commit that fixed it | [Part 2](WALKTHROUGH.md#part-2-the-same-method-applied-to-this-repository) |
+| **to run it today**, with whatever assistant you already use | [`AGENT.md`](AGENT.md) |
+| **to argue with the rules**, including the two that measurement revoked | [`METHOD.md`](METHOD.md) |
+| **to know where it came from**, and the bet underneath it | [`ORIGIN.md`](ORIGIN.md) |
+
+The rest of this page is the reasoning. The table above is the shortcut.
+
+---
+
 Give a machine five hundred dictionaries and it will speak the language. It still will not
 know what is worth saying.
 
@@ -10,10 +25,6 @@ the machine is allowed to keep, and who answers for it.
 Behind it is a position I hold and cannot prove: in an environment with AI, the advantage
 moves to whoever holds the criteria rather than the repertoire, and criteria is forged round
 by round. This repository is the instrument. It is not the proof.
-
-> **Start with [`WALKTHROUGH.md`](WALKTHROUGH.md).** It follows one captured line all the way
-> to three connected notes, and then applies the same method to this repository, where every
-> step is auditable in the commit history.
 
 ## What this is
 

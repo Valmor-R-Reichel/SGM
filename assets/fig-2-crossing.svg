@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" width="560" height="330" role="img" aria-label="Two qualitative curves crossing: the value of more reach falls while the value of combination rises">
-  <line x1="70" y1="46" x2="70" y2="272" stroke="#8b949e" stroke-width="1"/>
-  <line x1="70" y1="272" x2="512" y2="272" stroke="#8b949e" stroke-width="1"/>
-  <path d="M84 74 C168 90, 226 182, 288 218 C350 246, 428 258, 504 262" fill="none" stroke="#6e7781" stroke-width="1.6"/>
-  <path d="M84 262 C178 258, 248 234, 308 194 C378 146, 450 98, 504 70" fill="none" stroke="#6e7781" stroke-width="1.6" stroke-dasharray="7 5"/>
-  <line x1="279" y1="216" x2="279" y2="272" stroke="#8b949e" stroke-width="1" stroke-dasharray="3 4"/>
-  <circle cx="279" cy="216" r="3.4" fill="none" stroke="#6e7781" stroke-width="1.3"/>
-  <text x="279" y="290" font-family="Georgia, serif" font-size="12" fill="#8b949e" text-anchor="middle">the advantage moves</text>
-  <text x="504" y="252" font-family="Georgia, serif" font-size="12" fill="#8b949e" text-anchor="end">more reach</text>
-  <text x="504" y="62" font-family="Georgia, serif" font-size="12" fill="#8b949e" text-anchor="end">combination</text>
-  <text x="70" y="38" font-family="Georgia, serif" font-size="12" fill="#8b949e" text-anchor="middle">value</text>
-  <text x="512" y="292" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#8b949e" text-anchor="middle">R</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300" role="img" aria-label="The value of more reach falls while the value of combination rises, and the two cross">
+  <line x1="80" y1="44" x2="80" y2="238" stroke="#8b949e" stroke-width="1"/>
+  <line x1="80" y1="238" x2="600" y2="238" stroke="#8b949e" stroke-width="1"/>
+  <path d="M94 62 C186 80, 248 166, 312 196 C384 228, 470 234, 586 236" fill="none" stroke="#57606a" stroke-width="1.8"/>
+  <path d="M94 234 C200 230, 274 208, 338 172 C412 130, 496 88, 586 58" fill="none" stroke="#57606a" stroke-width="1.8" stroke-dasharray="7 5"/>
+  <line x1="303" y1="193" x2="303" y2="238" stroke="#8b949e" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="303" cy="193" r="3.6" fill="none" stroke="#57606a" stroke-width="1.4"/>
+  <text x="303" y="258" font-family="Georgia, serif" font-size="12" fill="#8b949e" text-anchor="middle">the advantage moves</text>
+  <text x="586" y="226" font-family="Georgia, serif" font-size="12" fill="#8b949e" text-anchor="end">more reach</text>
+  <text x="586" y="50" font-family="Georgia, serif" font-size="12" fill="#8b949e" text-anchor="end">combination</text>
+  <text x="80" y="32" font-family="Georgia, serif" font-size="12" fill="#8b949e" text-anchor="middle">value</text>
+  <text x="600" y="262" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#8b949e" text-anchor="middle">R</text>
 </svg>
