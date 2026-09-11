@@ -39,10 +39,11 @@ The effect shows up as a curve. The more time passes, the further the beam throw
 plot the whole thing as a regression: context climbing on the time axis, one technology at a
 time.
 
-![The reach of the beam rising over time toward a ceiling that keeps moving](assets/fig-1-reach.svg)
+![Context reach rising over time beneath a ceiling that shifts upward](assets/fig-1-reach.svg)
 
-*Figure 1. Reach over time. There is a theoretical ceiling — the bytes, the floor of everything
-that can be represented — but it moves up every time context improves.*
+*Figure 1. Reach against time. There is a theoretical ceiling — the bytes, the floor of
+everything that can be represented — but it moves up every time context improves, which is why
+it is drawn twice. Qualitative: the shape is the claim, not the scale.*
 
 ## The cone widens until it covers the field
 
@@ -54,10 +55,11 @@ This is where the question changes shape. While the light still had a visible ed
 was clear: throw further. But once it already covers almost everything that exists in the
 digital world, that marginal gain collapses. A stronger beam stops showing you more.
 
-![Marginal gain from additional reach falling toward zero](assets/fig-2-marginal.svg)
+![Two qualitative curves crossing: the value of more reach falls while the value of combination rises](assets/fig-2-crossing.svg)
 
-*Figure 2. The marginal gain from more reach, against reach itself. Past the dashed line, a
-brighter beam buys almost nothing.*
+*Figure 2. As reach grows, what an additional unit of it buys falls (solid), while the number of
+pairs available inside the lit field grows (dashed). Where they cross, the cheaper move stops
+being more light and starts being better connections. Qualitative: no measurement is claimed.*
 
 ## A shortcut between points that never touch
 
@@ -77,10 +79,24 @@ That is a subcontext: a dimension that only exists in the combination, never in 
 point. It is not about throwing further. It is about finding the folds inside what is already
 lit.
 
-![Two distant points inside the lit field joined by a seam that follows neither axis](assets/fig-3-seam.svg)
+It helps to have one in hand, so here is a subcontext taken from this repository's own worked
+case in [`WALKTHROUGH.md`](WALKTHROUGH.md).
 
-*Figure 3. Inside the lit field. The seam between A and B follows neither axis, and no amount
-of additional reach would have produced it.*
+Two lines sit in a raw log. The first: a rewritten contract clause came back accepted in under
+an hour. The second: on 4 February, someone decided to push rather than keep waiting. Alone,
+the first is a scheduling detail and the second is a diary entry. Neither is worth keeping.
+
+Put them together and they falsify the conclusion everyone had already drawn. A legal team
+does not clear a rewritten clause in under an hour if that clause was what stood in the way, so
+the speed of the acceptance is evidence against the clause being the whole story — and what
+actually moved the deal was a decision nobody had written down as a cause. That reading is in
+neither line. It exists only in the pair, and it disappears the moment you file the two lines
+in separate places and forget they were ever related.
+
+Which is why the method makes one demand that looks like bureaucracy and is not: a link that
+crosses branches has to carry the reason for the link, written out next to it. The two files
+will still be there in two years. The reason they were joined will not, unless someone wrote it
+down. The comment on the link is the subcontext, stored.
 
 ## The RNA of context
 
