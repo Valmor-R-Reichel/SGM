@@ -30,7 +30,7 @@ accepted it on 02/10 with no pushback.
 | 2027-01-10 | project opened |
 | 2027-02-03 | liability clause flagged as a blocker |
 | 2027-02-06 | updated clause sent to the distributor |
-| 2027-02-10 | distributor accepted with no pushback, see [[the-liability-clause-was-never-the-real-blocker]] |
+| 2027-02-10 | distributor accepted with no pushback, see [[the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause]] |
 
 ## Still unknown, do not guess
 
@@ -42,4 +42,4 @@ accepted it on 02/10 with no pushback.
 ## connects to
 
 - [[priya-nandan]], who owns this relationship
-- [[the-liability-clause-was-never-the-real-blocker]], the decision this project produced
+- [[the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause]], the decision this project produced

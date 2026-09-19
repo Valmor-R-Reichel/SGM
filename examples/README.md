@@ -11,7 +11,7 @@ The reasoning is in [`../NOTICE.md`](../NOTICE.md).
 
 1. [`raw-log-sample.md`](raw-log-sample.md) — eight unfiltered lines captured over a week.
    This is the fast side of the loop, before anyone has decided anything.
-2. [`decisions/the-liability-clause-was-never-the-real-blocker.md`](decisions/the-liability-clause-was-never-the-real-blocker.md)
+2. [`decisions/the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause.md`](decisions/the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause.md)
    — what the funnel produced from those lines. A claim as a title, confidence attached to the
    sentence, and one reading kept separate and marked as a hypothesis.
 3. [`people/priya-nandan.md`](people/priya-nandan.md) — a cumulative file. No confidence in

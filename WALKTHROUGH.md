@@ -47,10 +47,12 @@ unblocked the deal*.
 
 **Then the antithesis, which is where this step earns its keep.** Argue the opposite using
 only what is in the log. If the clause had really been the blocker, a distributor's legal
-team would not accept a rewritten version in under an hour. Fast acceptance is evidence that
-the clause was never what was holding it. What actually moved was the decision on 4 February
-to push rather than wait, and that decision came from Priya's instinct, with no data behind
-it that anyone saw.
+team would not accept a rewritten version in under an hour. Fast acceptance is evidence against
+the clause being the whole story, though it does not settle it: a corrected version accepted
+quickly is also consistent with the correction having removed a real blocker. What the log
+does show is that the clause alone does not explain the outcome. What also moved the deal was
+the decision on 4 February to push rather than wait, and that decision came from Priya's
+instinct, with no data behind it that anyone saw.
 
 The first conclusion did not survive. The second one did, and it is the one that got
 recorded.
@@ -68,7 +70,7 @@ marked `hypothesis:` at `[low · 1ev]`.
 raw-log.md                    8 raw lines, 03/02 to 10/02
         |
         v  the funnel
-decisions/the-liability-clause-was-never-the-real-blocker.md
+decisions/the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause.md
         |
         +--> people/priya-nandan.md
         +--> projects/eu-distributor-partner-integration.md
@@ -76,8 +78,8 @@ decisions/the-liability-clause-was-never-the-real-blocker.md
 
 **The decision note** carries the claim as its title, because a title that asserts something
 answers the question before you open the file. It carries its confidence inline,
-`[high · 2ev: Sofia's draft accepted without changes 02/06 · Priya's Slack message 02/10]`,
-and it keeps the pattern separate and marked as a hypothesis, because one occurrence is one
+`[medium · 2ev: standup reporting the draft went out 02/06 · Priya's Slack confirming the
+acceptance 02/10]`, and it stays at medium because high needs a third independent piece. It keeps the pattern separate and marked as a hypothesis, because one occurrence is one
 occurrence.
 
 It also has a section that only exists because of the raw log: *what I would have missed*.

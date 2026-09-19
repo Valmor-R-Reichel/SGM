@@ -2,14 +2,14 @@
 branch: decisions
 created: 2027-02-10
 updated: 2027-02-10
-confidence: high
-sources: [call-2027-02-03, checkin-2027-02-04, standup-2027-02-06, slack-2027-02-10]
+confidence: medium
+sources: [standup-2027-02-06, slack-2027-02-10]
 ---
 
 > Fictional example. Meridian Robotics does not exist. See `examples/README.md`.
 
 
-# The liability clause was never the real blocker on the EU distributor deal
+# The liability clause was a real problem attached to the wrong cause
 
 ## What happened
 
@@ -20,8 +20,8 @@ Priya raised the liability clause as the reason the EU distributor deal was stuc
 drafted an update using a clause Jonas already had from an unrelated deal. The distributor
 accepted it with no pushback, in under an hour.
 
-`[high · 2ev: Sofia's draft accepted without changes 02/06 · Priya's Slack message 02/10
-confirming no pushback]`
+`[medium · 2ev: standup reporting the draft went out 02/06 · Priya's Slack confirming the
+acceptance 02/10]`
 
 ## Why this matters more than it looks
 

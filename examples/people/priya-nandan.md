@@ -19,7 +19,7 @@ She pushes for speed over certainty when a deal stalls, and states the tradeoff 
 rather than hiding it: "the moment we blink they go talk to the other vendor."
 `[low · 1ev: checkin 02/04]`
 
-See [[the-liability-clause-was-never-the-real-blocker]] for the case where this instinct
+See [[the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause]] for the case where this instinct
 was right for a reason she did not name at the time.
 
 ## What she delegates without being asked
@@ -35,6 +35,6 @@ with either.
 
 ## connects to
 
-- [[the-liability-clause-was-never-the-real-blocker]], the decision note her instinct
+- [[the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause]], the decision note her instinct
   produced
 - [[eu-distributor-partner-integration]], the project she owns
