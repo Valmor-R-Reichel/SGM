@@ -9,7 +9,6 @@ answers for it when what it remembered turns out to be wrong.
 | **to see it fail**, the nine claims this repository wrote in its first 43 hours that could not be backed, each with the commit that fixed it | [Part 2](WALKTHROUGH.md#part-2-the-same-method-applied-to-this-repository) |
 | **to run it today**, with whatever assistant you already use | [`AGENT.md`](AGENT.md) |
 | **to argue with the rules**, including the two that measurement revoked | [`METHOD.md`](METHOD.md) |
-| **to know where it came from**, and the bet underneath it | [`ORIGIN.md`](ORIGIN.md) |
 
 The rest of this page is the reasoning. The table above is the shortcut.
 
