@@ -60,7 +60,8 @@ catch.
 
 Neither conclusion survived as a fact. What got recorded is the claim the log does support,
 that the fast acceptance does not say what unblocked the deal, with the push kept as a
-hypothesis at the lowest confidence.
+hypothesis at the lowest confidence. And the acceptance itself is one person's report, which
+is why it carries its own marker in the note rather than sharing one with the rest.
 
 **4. Comprehend.** This opens a pattern worth watching rather than closing one: when a stuck
 deal gets one specific technical explanation this early and this confidently, the explanation
@@ -82,10 +83,12 @@ decisions/the-fast-acceptance-does-not-say-what-unblocked-the-deal.md
 ```
 
 **The decision note** carries the claim as its title, because a title that asserts something
-answers the question before you open the file. It carries its confidence inline,
-`[medium · 2ev: standup reporting the draft ready 02/06 · Priya's Slack confirming the send
-and the acceptance 02/10]`, and it stays at medium because high needs a third independent piece. It keeps the two readings separate and marked as hypotheses, because one occurrence is one
-occurrence.
+answers the question before you open the file. Confidence is inline and **one marker per
+claim**, not one per note: the draft being ready is `[medium · 2ev]`, an email I sent and a
+standup, while the acceptance is `[low · 1ev: Priya's Slack 02/10]`, one person reporting what
+the distributor did. A single marker over the paragraph would have averaged the two and hidden
+that everything downstream rests on the weaker one. It keeps the two readings separate and
+marked as hypotheses, because one occurrence is one occurrence.
 
 It also has a section that only exists because of the raw log: *what I would have missed*.
 Without the 09:20 entry mentioning that Jonas already had a usable clause, the next step

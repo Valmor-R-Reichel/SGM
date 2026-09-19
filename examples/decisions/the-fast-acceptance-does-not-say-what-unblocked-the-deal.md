@@ -2,7 +2,7 @@
 branch: decisions
 created: 2027-02-10
 updated: 2027-02-10
-confidence: medium
+confidence: low
 sources: [call-2027-02-03, checkin-2027-02-04, email-2027-02-05, standup-2027-02-06, slack-2027-02-10]
 ---
 
@@ -16,14 +16,21 @@ sources: [call-2027-02-03, checkin-2027-02-04, email-2027-02-05, standup-2027-02
 This is the note the funnel produced from the raw log entries of 2027-02-03 through
 2027-02-10. Read `raw-log-sample.md` first to see the material this was built from.
 
-Priya raised the liability clause as the reason the EU distributor deal was stuck. On 02/04
-she decided to push the deal this quarter instead of waiting for the clause. On 02/05 I sent
-Sofia the clause Jonas already had from the Canada deal, and she used it to draft an update. The draft was ready on 02/06, with the send planned for Monday. On 02/10 Priya
-reported that it had gone out and the distributor accepted it with no pushback, in under an
-hour.
+One marker per note would hide which part is weak, so each claim carries its own.
 
-`[medium · 2ev: standup reporting the draft ready 02/06 · Priya's Slack confirming the send
-and the acceptance 02/10]`
+Priya raised the liability clause as the reason the EU distributor deal was stuck, and on
+02/04 she decided to push the deal this quarter instead of waiting for it. `[low · 1ev:
+partner call 02/03 and check in 02/04, both her, narrated by me]`
+
+On 02/05 I sent Sofia the clause Jonas already had from the Canada deal, and her draft was
+ready on 02/06, with the send planned for Monday. `[medium · 2ev: my own sent email 02/05 ·
+standup 02/06]`
+
+On 02/10 Priya reported that the clause had gone out and that the distributor accepted it with
+no pushback, in under an hour. `[low · 1ev: Priya's Slack 02/10]` **This is the weakest claim
+in the note, and every conclusion below rests on it.** Nothing from the distributor is
+recorded, the send date is not in the log, and "under an hour" is her wording, not a
+timestamp.
 
 ## Why this matters more than it looks
 
@@ -39,7 +46,7 @@ The raw log itself closes with *"So the clause was never the real blocker."* Tha
 written in the moment, and it is exactly the kind of certainty the funnel exists to catch.
 
 `hypothesis:` Priya's call to push, more than the clause, is what moved the deal. `[low · 1ev]`,
-resting on one reading of the fast acceptance and nothing else.
+resting on one reading of a fast acceptance that is itself reported by one person.
 
 `hypothesis:` when a stuck deal gets one specific technical explanation this early and this
 confidently, check whether it is the full story before spending time fixing only that piece.

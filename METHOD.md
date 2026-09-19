@@ -302,12 +302,18 @@ That is 44 + 66 + 66 + 66, 242 answers in all.
 
 The wrong answers without the line happened where the note body **already stated the correct
 version**. The corrected text did not stop the old claim from winning when its source came back;
-the line that named the old claim did. Two rules come out of it:
+the line that named the old claim did. That is what the four conditions measure, and it is all
+they measure.
 
-- **The discarded line names the wrong claim in the words it tends to come back in.** A
-  paraphrase of the error does not get recognized when the original phrasing returns.
-- **A discarded line gets reviewed like any other claim.** The assistant trusts it completely,
-  so a stale one does not fail quietly: it makes the assistant reject the truth.
+Two things follow from it that the test did not check, and they are written here as predictions:
+
+- **Whether the line has to name the wrong claim in the words it comes back in.** Every trap in
+  this run quoted or closely paraphrased the discarded line, so a loosely worded line was never
+  put in front of the model. Untested.
+- **What a stale discarded line does.** In the condition with the line, the assistant followed it
+  in 100% of answers. If that trust holds when the line is the part that is wrong, a stale one
+  would not fail quietly: it would make the assistant reject the truth. That is an inference from
+  the trust, not a measurement of it. Untested.
 
 What this does not show: that the *why* is what protects. The last row, the line with the claim
 and no reason, blocked the error just as well. Whether the reason matters is the next test, and
