@@ -285,6 +285,32 @@ When certainty arrives, the wrong version is **deleted**. The final note keeps o
 truth, plus one line reading `> discarded: <what> because <why>`, so that nobody redoes the
 investigation a year later.
 
+**That line turned out to do more than save the investigation, and this part is measured.** In
+September 2026 I took 22 corrected claims from my own archive and put the assistant in front of
+the source that had misled it the first time: the meeting quote, the old note, the AI summary.
+Each question ran with the note intact, with the note minus the discarded line, and with the
+source alone, three times each, on one model, 242 answers in all.
+
+| what the assistant saw | wrong answers |
+|---|---|
+| the misleading source alone | 66% |
+| the note without the discarded line | 15% |
+| the note with the discarded line | 0% |
+
+The wrong answers without the line happened where the note body **already stated the correct
+version**. The corrected text did not stop the old claim from winning when its source came back;
+the line that named the old claim did. Two rules come out of it:
+
+- **The discarded line names the wrong claim in the words it tends to come back in.** A
+  paraphrase of the error does not get recognized when the original phrasing returns.
+- **A discarded line gets reviewed like any other claim.** The assistant trusts it completely,
+  so a stale one does not fail quietly: it makes the assistant reject the truth.
+
+What this does not show: that the *why* is what protects. A version of the line with the claim
+and no reason blocked the error just as well. Whether the reason matters is the next test, and
+until it runs the honest sentence is "not measured". The effect also rests on few cases: nine of
+the ten wrong answers came from three of them.
+
 ---
 
 ## 6. Confidence and evidence
