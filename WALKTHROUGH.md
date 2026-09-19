@@ -26,7 +26,7 @@ issue, not a real objection.
 that clause from the Canada deal last year. Worth checking before drafting anything new.
 ```
 
-Six more entries accumulated over the following week: a standup, a check in, an email, a
+Five more entries accumulated over the following week: two standups, a check in, an email, a
 Slack message. Nothing was written well and nothing was filtered. That is the whole
 discipline of the fast side of the loop.
 
@@ -35,9 +35,10 @@ discipline of the fast side of the loop.
 On 10 February the log ran. Every entry went through five steps, out loud, before anything
 could be written.
 
-**1. Observe.** The deal was stuck. Priya named the liability clause as the reason. Sofia
-drafted an updated clause starting from one Jonas already had. The distributor accepted it in
-under an hour with no pushback.
+**1. Observe.** The deal was stuck. Priya named the liability clause as the reason, and on
+4 February decided to push rather than wait. Sofia drafted an updated clause starting from
+one Jonas already had. On 10 February Priya reported the distributor accepted it in under an
+hour with no pushback.
 
 **2. Check.** Nothing in the archive contradicted this. The project file said the contract
 phase was open. Nobody had recorded a reason for the delay before.
@@ -46,20 +47,24 @@ phase was open. Nobody had recorded a reason for the delay before.
 unblocked the deal*.
 
 **Then the antithesis, which is where this step earns its keep.** Argue the opposite using
-only what is in the log. If the clause had really been the blocker, a distributor's legal
-team would not accept a rewritten version in under an hour. Fast acceptance is evidence against
-the clause being the whole story, though it does not settle it: a corrected version accepted
-quickly is also consistent with the correction having removed a real blocker. What the log
-does show is that the clause alone does not explain the outcome. What also moved the deal was
-the decision on 4 February to push rather than wait, and that decision came from Priya's
-instinct, with no data behind it that anyone saw.
+only what is in the log. Would a distributor's legal team accept a rewritten clause in under
+an hour if the clause had really been the blocker? Maybe not, and that points somewhere else:
+to the decision on 4 February to push rather than wait, which came from Priya's instinct with
+no data behind it that anyone saw.
 
-The first conclusion did not survive. The second one did, and it is the one that got
-recorded.
+But the antithesis fails the same test as the thesis. A corrected clause accepted quickly is
+exactly what removing a real blocker looks like. The log records two things that happened
+before the deal moved, the fix and the push, and nothing that separates them. The last raw
+entry, *"So the clause was never the real blocker"*, is the certainty this step exists to
+catch.
+
+Neither conclusion survived as a fact. What got recorded is the claim the log does support,
+that the fast acceptance does not say what unblocked the deal, with the push kept as a
+hypothesis at the lowest confidence.
 
 **4. Comprehend.** This opens a pattern worth watching rather than closing one: when a stuck
 deal gets one specific technical explanation this early and this confidently, the explanation
-may be a real problem attached to the wrong cause. That is a reading, not a fact. It goes in
+may be a real problem that is not the whole story. That is a reading, not a fact. It goes in
 marked `hypothesis:` at `[low · 1ev]`.
 
 **5. Record.** Three files, and the reason each one exists.
@@ -67,10 +72,10 @@ marked `hypothesis:` at `[low · 1ev]`.
 ## What it became
 
 ```
-raw-log.md                    8 raw lines, 03/02 to 10/02
+raw-log.md                    7 raw entries, 03/02 to 10/02
         |
         v  the funnel
-decisions/the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause.md
+decisions/the-fast-acceptance-does-not-say-what-unblocked-the-deal.md
         |
         +--> people/priya-nandan.md
         +--> projects/eu-distributor-partner-integration.md
@@ -78,8 +83,8 @@ decisions/the-liability-clause-was-a-real-problem-attached-to-the-wrong-cause.md
 
 **The decision note** carries the claim as its title, because a title that asserts something
 answers the question before you open the file. It carries its confidence inline,
-`[medium · 2ev: standup reporting the draft went out 02/06 · Priya's Slack confirming the
-acceptance 02/10]`, and it stays at medium because high needs a third independent piece. It keeps the pattern separate and marked as a hypothesis, because one occurrence is one
+`[medium · 2ev: standup reporting the draft ready 02/06 · Priya's Slack confirming the send
+and the acceptance 02/10]`, and it stays at medium because high needs a third independent piece. It keeps the two readings separate and marked as hypotheses, because one occurrence is one
 occurrence.
 
 It also has a section that only exists because of the raw log: *what I would have missed*.
@@ -97,8 +102,8 @@ sequence of events survives.
 
 **The links** between them are not decoration. Each one says why it exists:
 
-> `[[priya-nandan]], because her instinct to push turned out to be the actual variable, not
-> the clause she named`
+> `[[priya-nandan]], because her call to push on 02/04 is one of the two causes this log
+> cannot separate`
 
 Six months from now the comment is the part still doing work. The link alone would not be.
 
