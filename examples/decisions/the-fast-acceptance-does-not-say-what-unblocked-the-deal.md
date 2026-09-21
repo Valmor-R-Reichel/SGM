@@ -19,15 +19,15 @@ This is the note the funnel produced from the raw log entries of 2027-02-03 thro
 One marker per note would hide which part is weak, so each claim carries its own.
 
 Priya raised the liability clause as the reason the EU distributor deal was stuck.
-`[medium · partner call 02/03, my notes, no transcript]` On 02/04 she decided to push the deal
-this quarter instead of waiting for it. `[medium · check in 02/04, my notes, no transcript]`
+`[medium · partner call Feb 3, my notes, no transcript]` On Feb 4 she decided to push the deal
+this quarter instead of waiting for it. `[medium · check in Feb 4, my notes, no transcript]`
 
-On 02/05 I sent Sofia the clause Jonas already had from the Canada deal. `[high · my own sent
-email 02/05]` Her draft was ready on 02/06, with the send planned for Monday. `[medium ·
-standup 02/06, my notes, no transcript]`
+On Feb 5 I sent Sofia the clause Jonas already had from the Canada deal. `[high · my own sent
+email Feb 5]` Her draft was ready on Feb 6, with the send planned for Monday. `[medium ·
+standup Feb 6, my notes, no transcript]`
 
-On 02/10 Priya reported that the clause had gone out and that the distributor accepted it with
-no pushback, in under an hour. `[low · Priya's Slack 02/10, about the distributor, not about
+On Feb 10 Priya reported that the clause had gone out and that the distributor accepted it with
+no pushback, in under an hour. `[low · Priya's Slack Feb 10, about the distributor, not about
 herself]` **This is the weakest claim
 in the note, and every conclusion below rests on it.** Nothing from the distributor is
 recorded, the send date is not in the log, and "under an hour" is her wording, not a
@@ -55,15 +55,15 @@ confidently, check whether it is the full story before spending time fixing only
 
 ## What I would have missed without the raw log
 
-Without the 02/03 entry mentioning that Jonas already had a usable clause, the natural next
+Without the Feb 3 entry mentioning that Jonas already had a usable clause, the natural next
 step would have been drafting from scratch, which is what a fresh liability issue usually
 requires. The connection only existed because it was captured the same day it came up, in a
 call that was not primarily about contracts.
 
 ## Who decided
 
-Priya set the direction in the 02/04 check in. Sofia drafted the clause after I sent her Jonas's
-version on 02/05. Nobody tested whether the clause was the real blocker, which is why this note
+Priya set the direction in the Feb 4 check in. Sofia drafted the clause after I sent her Jonas's
+version on Feb 5. Nobody tested whether the clause was the real blocker, which is why this note
 exists: to make that gap visible for the next stuck deal.
 
 ## Revisit when
@@ -74,6 +74,6 @@ two causes apart, and the only kind that would move the first hypothesis above l
 
 ## connects to
 
-- [[priya-nandan]], because her call to push on 02/04 is one of the two causes this log
+- [[priya-nandan]], because her call to push on Feb 4 is one of the two causes this log
   cannot separate
 - [[eu-distributor-partner-integration]], the project this deal belongs to

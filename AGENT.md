@@ -90,7 +90,7 @@ promoted is not the same as gone.
 | Progress, scope or risk on a project | the project file in `projects/` | yes, cumulative |
 | How the human writes, decides, negotiates | `profile/` | yes, with evidence |
 | A screenshot or copy of a live conversation | a pointer only: channel, person, date, time | no |
-| A task or a deadline | stays in the raw log | no |
+| A task or a deadline | stays in the log, rolls over unpromoted | no |
 | Gossip, venting, noise | discard | no |
 | Unclear where it fits | `inbox/`, marked unrouted | decide later |
 
@@ -108,8 +108,8 @@ promoted is not the same as gone.
   sources: [<where this came from>]
   ---
   ```
-- **Separate fact from reading.** Mark a reading as `hypothesis:` until it repeats and
-  earns the right to be treated as fact.
+- **Separate fact from reading.** Mark a reading as `hypothesis:` until independent evidence
+  raises it to fact, by the rules under *Confidence and evidence* below.
 - **A link between branches needs a short comment explaining why.** Inside the same branch a
   comment is welcome but not required.
 - See `examples/` for what this looks like filled in with real content, on a fictional

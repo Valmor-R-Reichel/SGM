@@ -16,13 +16,15 @@ several claims, no single level fits all of them.
 ## What it is
 
 Onboarding Meridian Robotics' first distribution partner in the EU, including the contract
-update needed for the region's data processing requirements.
+changes the region requires.
 
 ## Status
 
-🟡 in progress, as of 2027-02-10. The updated clause was ready on 02/06 with the send planned
-for Monday. On 02/10 Priya reported it had gone out and the distributor accepted it in under
-an hour, with no pushback. The exact send date is not in the log.
+🟡 in progress, as of 2027-02-10. The updated clause was ready on Feb 6 with the send planned
+for Monday. `[medium · standup Feb 6, my notes, no transcript]` On Feb 10 Priya reported it
+had gone out and the distributor accepted it in under an hour, with no pushback. `[low ·
+Priya's Slack Feb 10, about the distributor, not about herself]` The exact send date is not in
+the log.
 
 ## History
 
@@ -43,5 +45,5 @@ an hour, with no pushback. The exact send date is not in the log.
 
 ## connects to
 
-- [[priya-nandan]], who owns this relationship
+- [[priya-nandan]], who set the direction on this deal on Feb 4
 - [[the-fast-acceptance-does-not-say-what-unblocked-the-deal]], the decision this project produced

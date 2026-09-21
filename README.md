@@ -72,8 +72,8 @@ the archive itself, so there is one account of how you work instead of two compe
 
 **The loop that makes it governed is the one back to the top.** When a claim falls, the wrong
 version is deleted and one line stays in its place, `> discarded: <what> because <why>`. The
-next agent reads that line before the old source gets a chance to win again. It is the part
-of the method with a measurement behind it, in
+next agent reads that line before the old source gets a chance to win again. That line was
+measured, in
 [`METHOD.md`](METHOD.md#no-note-carries-ambiguity).
 
 The job of the log is not to summarize. It is to decide what deserves to survive.
@@ -124,9 +124,9 @@ and there only independent evidence counts. Someone's account of a meeting and t
 of that meeting are one piece of evidence, not two.
 
 **What fell stays marked as fallen.** When a claim turns out wrong, the wrong version is
-deleted and one line takes its place, `> discarded: <what> because <why>`. Measured on my own
-archive, that line took wrong answers from 15 percent to zero when the misleading source came
-back.
+deleted and one line takes its place, `> discarded: <what> because <why>`. Measured on 22
+corrected claims from my own archive, that line took wrong answers from 15 percent to zero when
+the misleading source came back. Few cases, and the caveats are next to the numbers.
 
 **Deterministic work belongs to the machine, judgment belongs to the person.** Scripts
 propose and never decide. The only thing a script writes into the archive is a plan a human
@@ -213,7 +213,8 @@ it into your assistant as a system prompt or project instructions, then:
 
 1. Create four folders: `people/`, `decisions/`, `projects/`, `profile/`. Add more only once
    three or more things stop fitting the ones you have.
-2. Create an empty `raw-log.md`.
+2. Create an empty `raw-log.md`. The rest (`processed-logs/`, `inbox/`, an open questions
+   file) gets created the first time it is needed.
 3. **Today, capture three lines.** Anything at all: something someone said, a decision and the
    reason behind it, a number you had to look up twice. Do not filter and do not write well.
    Tomorrow, three more. The entries are supposed to be cheap and slightly embarrassing.

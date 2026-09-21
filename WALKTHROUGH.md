@@ -106,7 +106,7 @@ sequence of events survives.
 
 **The links** between them are not decoration. Each one says why it exists:
 
-> `[[priya-nandan]], because her call to push on 02/04 is one of the two causes this log
+> `[[priya-nandan]], because her call to push on Feb 4 is one of the two causes this log
 > cannot separate`
 
 Six months from now the comment is the part still doing work. The link alone would not be.
@@ -114,7 +114,7 @@ Six months from now the comment is the part still doing work. The link alone wou
 ## What did not survive
 
 Most of the week did not become anything. Sofia's note about the data processing agreement
-template being two versions behind is real, useful, and stayed in the raw log, because it
+template being two versions behind is real, useful, and rolled over into the processed log unpromoted, because it
 will not be true in six months and it does not explain a decision.
 
 That is not a loss. **A log that records everything is as useless as one that records
