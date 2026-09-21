@@ -51,9 +51,11 @@ flowchart TD
     C --> D["funnel: observe, check,<br/>understand, comprehend, record"]
     C -.->|"consolidated lines roll over,<br/>dated, never edited again"| K["processed-logs/"]
     D --> E["triage into 3 buckets:<br/>discard / new / conflicting"]
-    E -->|"conflicting and not settled yet"| Q["open questions file:<br/>both versions, and what would settle it"]
-    Q -->|"settled: the wrong version is deleted,<br/>one discarded line stays"| F
-    E -->|"human approves, item by item"| F["the archive"]
+    E -.->|"discard: stays readable,<br/>with the reason"| K
+    E -->|"conflicting, not settled yet"| Q["open questions file:<br/>both versions, and what would settle it"]
+    Q -.->|"when it settles, the answer<br/>comes back as a new entry"| B
+    E -->|"new, or conflicting with a clear winner"| P{"human approves,<br/>item by item"}
+    P --> F["the archive<br/>a fallen claim is deleted,<br/>one discarded line stays"]
     F --> G["people/ decisions/ projects/"]
     G -->|"the correction is read<br/>before the old source can win again"| R
     F --> H["profile/<br/>how you write and decide"]
