@@ -17,7 +17,7 @@ does not have a single confidence level. Each claim below carries its own.
 
 `hypothesis:` she pushes for speed over certainty when a deal stalls, and states the tradeoff out loud
 rather than hiding it: "the moment we blink they go talk to the other vendor."
-`[low · 1ev: checkin Feb 4]`
+`[low · 1ev: check in Feb 4]`
 
 See [[the-fast-acceptance-does-not-say-what-unblocked-the-deal]] for the case where this instinct may have
 been what moved the deal. The log cannot tell it apart from the clause fix, so that stays a

@@ -238,6 +238,13 @@ processor over them, rather than a database with the model as a query interface.
 here is downstream of taking that seriously and then finding out that storage was never the
 hard part.
 
+Two of the ideas here have older, better known versions, and the credit belongs to them.
+Titles that state a claim are close to what Andy Matuschak calls evergreen notes. One decision
+per file, with its reasoning and a record of what it replaced, is close to the Architecture
+Decision Records that software teams use. If anything here is new, it is putting those next
+to a confidence level per sentence, a gate a person owns, and rules that get measured and
+revoked when they fail.
+
 There are tools that solve neighbouring problems, persistent agent memory and the maintenance
 of a knowledge graph among them. I have not audited them and I am not comparing. The
 distinction that matters here is one of scope: they handle what to keep and how to retrieve
@@ -250,8 +257,8 @@ This repository was created on 28 August 2026, and every change to it is public 
 Five of the first twelve commits exist to remove or correct claims that did not hold up. The
 commit curve reproduces something the method already measures about itself, in section 11 of
 `METHOD.md`: creation heavy at first, revision heavy afterwards. In the archive this method
-runs on, the ratio went from 1.45 to 0.51 in a week, production falling 69 percent while the
-archive got better. Nobody planned for the repository to repeat that curve in its first two
+runs on, the ratio went from 1.45 to 0.51 in a week, and notes created per day fell from about
+20 to under 5 while the archive got better. Nobody planned for the repository to repeat that curve in its first two
 days.
 
 ## Limits
@@ -266,6 +273,18 @@ the repertoire without the criteria has handed you five hundred dictionaries.
 
 It was also built for one person's working knowledge. Nothing here has been tested as a shared
 team archive, and several of the rules would probably break under multiple writers.
+
+The people files hold personal data about third parties: dated facts about what colleagues
+said and did. The method keeps them to facts, with no score and no verdict, and the archive
+does not leave the machine without a decision. That reduces the exposure, it does not settle
+it. Under data protection law, the LGPD in Brazil or the GDPR in Europe, those files are
+personal data, and nothing here has been reviewed by a lawyer. Anyone adopting this inside an
+organization should check that first.
+
+In this kit, the one enforcing the gate is the model itself, the same one the method says
+agrees too easily. And approval by click is a bet, not a measurement: a gate clicked often
+enough can turn into a rubber stamp too. The test that would show it is how often an item is
+approved without any change, tracked over time. It has not been run.
 
 ## How this repository was written
 

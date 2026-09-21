@@ -19,7 +19,7 @@ that clause from the Canada deal last year. Worth checking before drafting anyth
 two versions behind what EU customers have started asking for. She is drafting an update,
 no date given yet.
 
-[2027-02-04 11:30] [1:1 with Priya] Asked her directly whether to push the EU deal this
+[2027-02-04 11:30] [check in with Priya] Asked her directly whether to push the EU deal this
 quarter or wait for the clause issue to resolve. She said push, because "the moment we
 blink they go talk to the other vendor." Strong opinion, no data behind it that I saw.
 

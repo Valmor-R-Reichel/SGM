@@ -162,9 +162,10 @@ When it settles, delete the wrong version from the note and leave one line in it
 ```
 
 Write the wrong claim in the words it tends to come back in: the old note, the meeting quote,
-the summary that misled you. When that source shows up again, this line is what stops the old
-claim from winning. Correcting the body of the note alone did not do that, and `METHOD.md`,
-section 5, has the measurement.
+the summary that misled you. That wording is a prediction, not a measurement, and it costs
+nothing to follow. What is measured is the line itself: when the misleading source shows up
+again, the line stops the old claim from winning, where correcting the body of the note alone
+did not. `METHOD.md`, section 5, has the numbers and marks what is still untested.
 
 A wrong claim leaves through this line, not through a lower confidence label. And treat
 discarded lines as claims too: when the facts move, revise them, because an assistant follows

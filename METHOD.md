@@ -475,11 +475,14 @@ section that had turned into a changelog, at 27 KB; and a minimal one, at 10 KB.
 question ran three times per version, the predictions were written down before the run, and
 the answers were graded blind by a separate pass.
 
-| center | right answers | wrong answers on rule questions | followed the expected rule | fell for the trap |
-|---|---|---|---|---|
-| full, 54 KB | 81% | 11% | 93% | 0% |
-| without the changelog, 27 KB | 84% | 15% | 92% | 0% |
-| minimal, 10 KB | 84% | 30% | 94% | 0% |
+| center | right | partial | wrong | right on rule questions | wrong on rule questions | followed the expected rule | fell for the trap |
+|---|---|---|---|---|---|---|---|
+| full, 54 KB | 81% | 16% | 3% | 37% | 11% | 93% | 0% |
+| without the changelog, 27 KB | 84% | 11% | 4% | 48% | 15% | 92% | 0% |
+| minimal, 10 KB | 84% | 6% | 9% | 48% | 30% | 94% | 0% |
+
+Partial answers count as not right. Almost all of them are rule questions, which is why those
+sit well below the overall figure: facts and traps were right every time.
 
 Size did not hurt. Whether an answer followed the rule the question expected, and cited a
 source when it gave a number, stayed between 92 and 94 percent in all three versions, so a
@@ -625,7 +628,9 @@ exactly what killed the three earlier attempts. The curve makes it visible:
 | the first three active days | 61 | 42 | **1.45** |
 | the four days after those | 19 | 37 | **0.51** |
 
-Production fell by 69 percent and the archive got better, not worse. A metric that points
+Notes created per day fell from about 20 to under 5. The two windows are three and four days
+long, so the totals are not comparable, but the per day figures and the ratio are. And the
+archive got better, not worse, which is a judgment of mine rather than a measurement. A metric that points
 down while the thing improves is measuring the wrong quantity.
 
 The mechanism behind that is worth stating on its own: **depth comes from revision, not from
