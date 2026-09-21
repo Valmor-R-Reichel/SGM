@@ -124,15 +124,50 @@ supports:
 `[medium · 2ev: meeting 05/08 · email 21/07]`
 ```
 
-Low is the default for a single observation. It rises to medium on the second independent
-piece of evidence, high on the third.
+**Judge the source, not the count.** Mark a claim high when its source has authority over that
+kind of claim and the source's typical weak point has been handled:
+
+- An official document or org chart: the claim carries the date of the document.
+- A query, export or screen: the note cites it and records that the meaning of the field, the
+  join or the grain was checked. A number coming back is not enough.
+- A message written by the person: the claim is about its own author.
+- A meeting: the attribution comes from a transcript, not from an AI summary.
+- A screenshot: the claim stays inside what it shows.
+
+Authority without the weak point handled is medium. No authority is low, and low is the
+default for any observation you have not assessed.
+
+A reading of how someone behaves, like "she decides by consensus", is the exception. One
+observation proves nothing there, so it rises by count: medium on the second independent
+event, high on the third.
 
 **Evidence only counts if it is independent.** A person's account of a meeting and the
 transcript of that meeting are one event, not two. The test is a different date and a
-different type of source.
+different type of source. Running the same query again changes the scope of a claim, not its
+confidence.
 
-A claim about someone else only reaches high with at least one source not mediated by the
-person telling you about it.
+What the human tells you about someone else is always mediated, and on its own it never makes
+a claim about that person high.
+
+## When a claim is overturned
+
+When two sources disagree and you cannot decide, the doubt leaves the note. It goes whole into
+an open questions file, with both versions, the evidence for each, and what would settle it.
+
+When it settles, delete the wrong version from the note and leave one line in its place:
+
+```
+> discarded: <the wrong claim> because <why it fell>
+```
+
+Write the wrong claim in the words it tends to come back in: the old note, the meeting quote,
+the summary that misled you. When that source shows up again, this line is what stops the old
+claim from winning. Correcting the body of the note alone did not do that, and `METHOD.md`,
+section 5, has the measurement.
+
+A wrong claim leaves through this line, not through a lower confidence label. And treat
+discarded lines as claims too: when the facts move, revise them, because an assistant follows
+them closely and a stale one would lead it to reject the truth.
 
 ## The approval gate
 

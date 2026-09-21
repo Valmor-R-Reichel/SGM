@@ -68,7 +68,8 @@ it:
   reason. No approval needed, nothing here is being promoted.
 - **New.** Clean, no conflict with what already exists.
 - **Conflicting.** Contradicts something already recorded. Name exactly which file would be
-  superseded.
+  superseded, and propose the `> discarded:` line that will replace the old version, written
+  as described in `AGENT.md`, *When a claim is overturned*.
 
 Present all three buckets to the human in one shot, and wait for an explicit yes on each
 item, a click or a clear go ahead, not silence and not a change of subject. If your tool
@@ -77,10 +78,11 @@ to compose their own authorization turns into a rubber stamp over time.
 
 A single piece of evidence about a person, or about how the human works, is not a reason to
 discard it. The confidence ladder in `AGENT.md` already treats one observation as the normal
-starting point, rising later as independent evidence adds up. Put it in New at low confidence,
-with its source and date, instead of holding it back to wait for a second occurrence. When
-that second or third occurrence shows up, raise the confidence on the same line, do not open a
-new pending item for it.
+starting point: its level depends on the authority of the source and on whether the source's
+weak point was handled, and a reading of behavior rises as independent evidence adds up. Put
+it in New with the level it earns, its source and date, instead of holding it back to wait for
+a second occurrence. When that second or third occurrence shows up, raise the confidence on
+the same line, do not open a new pending item for it.
 
 **4. Filter what got approved through the golden rule again.** A piece of information
 becomes a file only if it will still be true in six months, or if it explains why a decision
@@ -132,7 +134,8 @@ how mechanically step 5 gets executed.
 ## Never
 
 - Invent a fact about a person. No evidence, ask instead of filling the gap.
-- Promote a hypothesis to a fact before a third independent piece of evidence shows up.
+- Mark a claim high without a source that has authority over it, or promote a reading of
+  someone's behavior to a fact before a third independent event shows up.
 - Record a judgment of someone's character. A file exists to work better with a person, not
   to rate them.
 - Store a credential, a token, or another person's sensitive data.

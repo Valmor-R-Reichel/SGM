@@ -7,8 +7,9 @@ answers for it when what it remembered turns out to be wrong.
 |---|---|
 | **to see it work**, on one case, from a raw line to three connected notes | [`WALKTHROUGH.md`](WALKTHROUGH.md) |
 | **to see it fail**, the nine claims this repository wrote in its first 43 hours that could not be backed, each with the commit that fixed it | [Part 2](WALKTHROUGH.md#part-2-the-same-method-applied-to-this-repository) |
+| **to see what was measured**, what one line recording a discarded claim does to wrong answers, and what the size of the center file does | [the discarded line](METHOD.md#no-note-carries-ambiguity) and [the center file](METHOD.md#why-an-archive-and-not-a-prompt), in `METHOD.md` |
 | **to run it today**, with whatever assistant you already use | [`AGENT.md`](AGENT.md) |
-| **to argue with the rules**, including the two that measurement revoked | [`METHOD.md`](METHOD.md) |
+| **to argue with the rules**, including the three that measurement revoked or rewrote | [`METHOD.md`](METHOD.md) |
 
 The rest of this page is the reasoning. The table above is the shortcut.
 
@@ -103,10 +104,17 @@ the generated index answers most questions before you open a file.
 have a single confidence level, so each claim carries its own inline, along with the sources
 behind it.
 
-**Evidence only counts when it is independent.** Someone's account of a meeting and the
-transcript of that meeting are one piece of evidence, not two. The operational test is a
-different date and a different type of source. Without it, a reading of mine, observed again
-three times, climbs to fact with a date and a source attached, and starts to look like data.
+**Confidence comes from the source, not from the count.** A claim is high when its source has
+authority over that kind of claim and the source's typical weak point has been handled: an org
+chart carries its date, a query result carries a check of what the field actually measures.
+Counting is kept for readings of how someone behaves, where one observation proves nothing,
+and there only independent evidence counts. Someone's account of a meeting and the transcript
+of that meeting are one piece of evidence, not two.
+
+**What fell stays marked as fallen.** When a claim turns out wrong, the wrong version is
+deleted and one line takes its place, `> discarded: <what> because <why>`. Measured on my own
+archive, that line took wrong answers from 15 percent to zero when the misleading source came
+back.
 
 **Deterministic work belongs to the machine, judgment belongs to the person.** Scripts
 propose and never edit the archive. A single skill has write access to it. Approval is a
@@ -115,12 +123,15 @@ becomes a rubber stamp.
 
 **A rule below fifty percent measured adherence goes back on the table.** Not revoked
 automatically, but reviewed with the count beside it, and either rewritten to match what
-actually happens or dropped. Two rules have already gone that way. A maximum note size, which
+actually happens or dropped. Three rules have already gone that way. A maximum note size, which
 was being followed 47 percent of the time, and a requirement that every link carry a comment
 explaining it, which was being followed in none of the 315 links that existed when it was
 measured. The rule that replaced the second one, requiring a comment only on links that cross
 between branches, was last measured at 53 percent and stays for now, a number that is
-expected to drift as the archive grows and has not been rechecked since.
+expected to drift as the archive grows and has not been rechecked since. The third was the
+evidence rule itself. It asked for three independent pieces of evidence before anything could
+be marked high, and checked against 134 such claims it held in about 5 percent of them. It was
+rewritten to judge the source instead of the count, and then reapplied claim by claim.
 
 ## What enters, what stays, and what leaves
 
@@ -130,7 +141,7 @@ three gates, and the third is what keeps it usable.
 | state | gate |
 |---|---|
 | **enters** | the golden rule: still true in six months, or explains a decision |
-| **stays** | the confidence ladder. A claim that never earns a second independent source stays a hypothesis, permanently, and that is not a defect |
+| **stays** | the confidence ladder. A reading that never earns a second independent source stays a hypothesis, permanently, and that is not a defect |
 | **leaves** | two doors: an ambiguity gets resolved, or a rule falls below fifty percent measured adherence |
 
 And the principle that makes the third gate safe:
@@ -255,7 +266,7 @@ strange. What I do not delegate is the judgment about what stays.
 
 ## Status
 
-**This describes the system as it stood on 3 September 2026.** It is one person's working
+**This describes the system as it stood on 21 September 2026.** It is one person's working
 setup, and it changes most weeks. What changes slowly is the reasoning, and the reasoning is
 what this repository is for.
 

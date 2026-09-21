@@ -86,10 +86,11 @@ six month test is what separates knowledge from record keeping.
 
 ### Stays
 
-Nothing stays by default at the level it entered. A claim enters at low confidence and climbs
-only on independent evidence, by the test in section 6.
+Nothing stays by default at the level it entered. A claim enters at the level its source
+earns, and climbs only by the test in section 6: a source with authority and its weak point
+handled, or, for a reading of how someone behaves, independent evidence.
 
-**A claim that never earns a second independent source stays a hypothesis, permanently.** That
+**A reading that never earns a second independent source stays a hypothesis, permanently.** That
 is not a defect and it is not a queue of unfinished work. Some things are true, useful,
 and observed once, and the honest way to keep them is as something observed once. The failure
 mode this prevents is the quiet promotion: a reading of mine, re-observed three times, that
@@ -104,7 +105,7 @@ Two doors, and only two.
    The mechanics are below, under *no note carries ambiguity*.
 2. **A rule falls below fifty percent measured adherence.** Not revoked automatically: it goes
    back on the table with the count beside it, and is either rewritten to match what actually
-   happens or dropped. Two rules have already gone that way. Section 11 has the numbers.
+   happens or dropped. Three rules have already gone that way, and section 13 has each one.
 
 And the principle that makes this gate safe to use:
 
@@ -320,6 +321,14 @@ and no reason, blocked the error just as well. Whether the reason matters is the
 until it runs the honest sentence is "not measured". The effect also rests on few cases: nine of
 the ten wrong answers came from three of them.
 
+A later test, described in section 8, showed the other side of this. The discarded line
+protects where it exists, and the risk is the correction that never became one. One question
+asked for a target figure. An older note still stated the previous figure, with no date and no
+discarded line, and only the center file carried the correction. With the smallest center, the
+assistant answered with the old figure. When I reviewed the sample, I accepted the old figure
+too, and only confirmed the right one when challenged. The note misled the assistant and its
+owner alike.
+
 ---
 
 ## 6. Confidence and evidence
@@ -333,12 +342,25 @@ sentence:
 
 The same file can hold one `high` claim and one `low` claim.
 
-**The ladder:** `low` is the default for any single observation. It rises to `medium` on the
-second piece of evidence and `high` on the third.
+**The ladder judges the source, not the count.** A claim is `high` when its source has
+authority over that kind of claim **and** the typical weak point of that source has been dealt
+with. Authority without the weak point handled is `medium`. No authority is `low`, and `low`
+is also the default for any observation nobody has assessed yet.
 
-**But only independent evidence counts**, and this is the rule that protects the system
-most. Evidence is the **event**, not the record. Someone narrating a meeting and the
-transcript of that meeting are **one** piece of evidence, not two.
+| type of source | has authority to state | typical weak point | handled when |
+|---|---|---|---|
+| official document, org chart | role, reporting line, what the document says | goes stale without warning | the claim carries the date of the document |
+| system artifact: query, export, screen | "this query returns N", and the system fact it shows | interpretation: a column name promises one thing and the data measures another, and joins, grain and filters move the number | the note cites the query or screen and records that the join, the grain or the meaning of the field was checked: a decomposition, a falsification test, a second route, or confirmation with whoever owns the data |
+| a message or email written by the person | what they said, want, decided or asked | it speaks for its author, not for a system or a third party | the claim is about its own author |
+| speech in a meeting | what was said, and by whom | transcription and attribution; an AI summary swaps speakers and invents digits | attribution comes from a transcript, not from a summary |
+| screenshot | what is on screen, on that date | the crop, meaning what was left out | the claim stays inside what the screenshot shows |
+| my own account | myself, and what I decided | about anyone else, it is always mediated | about someone else, never `high` on its own |
+| a reading of behavior, like "she decides by consensus" | nothing, from a single observation | a pattern seen once turns into a trait | three independent events |
+
+**Counting keeps one job, and it is the last row.** A reading of how someone behaves rises by
+count: `medium` on the second independent event, `high` on the third. There, only independent
+evidence counts. Evidence is the **event**, not the record. Someone narrating a meeting and
+the transcript of that meeting are **one** piece of evidence, not two.
 
 Operational test: **a different date AND a different type of source.** Types that count as
 distinct: speech in a meeting, a message written by the person themselves, a screenshot, a
@@ -348,8 +370,16 @@ The reasoning: without that test, a reading of mine, observed again three times,
 fact carrying a date and a source, looking exactly like data. The system would start lying
 with the appearance of rigor.
 
-**A claim about another person** only reaches `high` with at least **one source not
-mediated by me**. Me saying the same thing three times stalls at `medium`.
+**Running the same query twice changes the scope of a claim, not its confidence.** The second
+run shares the weak point of the first. What raises a query result is checking what the field
+means.
+
+**A claim that turned out wrong leaves through a discarded line** (section 5), not through a
+lower label.
+
+This ladder replaced a counting ladder in September 2026, where `high` required three
+independent pieces of evidence for every claim. Section 13 has what measuring that rule
+showed.
 
 **Exception in my own profile branch:** there the test is a different date plus a distinct
 context. I am the primary source about myself, and demanding a different source type would
@@ -415,6 +445,51 @@ whole note, find out it was not there.
    its source**: either you open the file it cites, or you say you did not check.
 5. **The center is the map, not the territory.** It tells you where the answer is, not what
    the answer is.
+
+### Why an archive and not a prompt
+
+Anyone who uses these assistants daily will ask why not write one good prompt and keep it.
+There are four reasons, and only one of them is measured.
+
+1. **A prompt carries what you remember to write. The archive carries what you have already
+   forgotten.** The context for each question was gathered in other sessions, for other
+   reasons.
+2. **It keeps what fell, and why.** Nobody writes into a prompt that something was plausible
+   and turned out wrong, and for what reason. The discarded line does, and it is the one reason
+   of the four with a measurement behind it (section 5).
+3. **It assembles only the slice a question needs.** A prompt that served every subject would
+   be enormous and diluted.
+4. **Date, source and confidence per sentence.** That cannot be kept up in a prompt over
+   months.
+
+The limit comes with it: a center file that keeps growing turns into the giant prompt the
+archive exists to replace.
+
+**In September 2026 I measured that limit.** My center file had reached 54 KB, and I wanted
+to know whether its size was hurting the answers before cutting anything. The test used 30
+questions of three kinds: facts, rules, and traps where an older source points to a wrong
+answer. Each ran against three versions of the same center: the full one; one without the
+section that had turned into a changelog, at 27 KB; and a minimal one, at 10 KB. Every
+question ran three times per version, the predictions were written down before the run, and
+the answers were graded blind by a separate pass.
+
+| center | right answers | wrong answers on rule questions | fell for the trap |
+|---|---|---|---|
+| full, 54 KB | 81% | 11% | 0% |
+| without the changelog, 27 KB | 84% | 15% | 0% |
+| minimal, 10 KB | 84% | 30% | 0% |
+
+Size did not hurt, and how closely the answers followed the archive's rules did not change
+with it either. Cutting what already existed in the notes was relief without a measured loss.
+Cutting below that removed corrections that lived only in the center, and the minimal version
+got rule questions wrong twice as often as the trimmed one. The limit is what exists only in
+the center, more than its size.
+
+The caveats travel with the numbers. It ran on a single model, and has not been checked on
+others. Fact and trap questions scored 100% in every version, so the test was too easy there
+to separate anything. One answer key was out of date. And of the 20 answers drawn to check
+the blind grader, I judged 14, disagreed with it once, and left 6 that were too specific to
+judge from memory.
 
 ---
 
@@ -645,10 +720,11 @@ theme. If everything else disappears, this is what the system gets rebuilt from.
 
 These are not anecdotes. Each one cost work and turned into a criterion.
 
-- **A rule being broken is debt, not a rule.** This happened twice, with a size cap and with
-  a requirement that every link carry a comment. In both cases measurement showed low or zero
+- **A rule being broken is debt, not a rule.** This happened with a size cap and with a
+  requirement that every link carry a comment. In both cases measurement showed low or zero
   adherence, and the fix was adjusting the rule to real behavior rather than enforcing it
-  harder. A rule below fifty percent measured adherence goes back on the table.
+  harder. A rule below fifty percent measured adherence goes back on the table. The third
+  case is the evidence rule, at the end of this list.
 - **A successful install is not verified operation.** An integration was installed, never
   produced the artifact it was supposed to produce, and nobody noticed for two days. What was
   missing was checking the **output**, not the code.
@@ -668,6 +744,17 @@ These are not anecdotes. Each one cost work and turned into a criterion.
   It will notice that a document promises a file the document never delivers, because that is
   checkable by reading. It will not notice that 47 percent is not close to zero, because that
   requires opening the archive.
+- **The evidence rule was measuring the wrong thing.** It said `high` only on the third
+  independent piece of evidence, and this document called it the rule that protected the
+  system most. In September 2026 I checked every `high` in the archive, 134 claims, and about
+  95 percent rested on a single piece. The violation was in the label, not in the facts: whoever
+  marked them was judging the strength of the source, and an org chart is enough for a job
+  title, while the rule asked for repetition. The rule was rewritten to judge what the marking
+  was already judging (section 6) and then applied claim by claim: 78 stayed `high`, 48 went
+  down, 5 turned out to be exempt, and 3 were contradicted by newer notes, one of them a figure
+  that had already spread to two other notes. A first automated pass kept almost every `high`
+  on a justification written in prose. Requiring the literal passage that proves each claim is
+  what changed the result.
 
 ---
 
