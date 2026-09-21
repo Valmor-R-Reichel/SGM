@@ -492,7 +492,7 @@ answer withheld came from the rule questions. Those, on their own:
 
 The last column and the first measure different things. "Applied the expected rule" asks
 whether the answer used the rule the question was about. "Right" compares it with a full
-answer key. Most rule answers applied the rule and left out part of what the key asked for,
+answer key. Many rule answers applied the rule and left out part of what the key asked for,
 which is the gap between 37 to 48 percent right and around 80 percent applied.
 
 Size did not produce errors: the full center had the fewest wrong answers. It may have cost
