@@ -45,13 +45,17 @@ rules before it writes anything.
 
 ```mermaid
 flowchart TD
+    R["the agent reads before it answers:<br/>index, then the note,<br/>discarded lines included"] --> A
     A["work session"] -->|"capture: one line, costs nothing"| B["raw-log.md"]
     B -->|"accumulates across sessions"| C{"log skill"}
     C --> D["funnel: observe, check,<br/>understand, comprehend, record"]
     C -.->|"consolidated lines roll over,<br/>dated, never edited again"| K["processed-logs/"]
     D --> E["triage into 3 buckets:<br/>discard / new / conflicting"]
+    E -->|"conflicting and not settled yet"| Q["open questions file:<br/>both versions, and what would settle it"]
+    Q -->|"settled: the wrong version is deleted,<br/>one discarded line stays"| F
     E -->|"human approves, item by item"| F["the archive"]
     F --> G["people/ decisions/ projects/"]
+    G -->|"the correction is read<br/>before the old source can win again"| R
     F --> H["profile/<br/>how you write and decide"]
     H -->|"reads what the archive<br/>learned about you"| I{"write skill"}
     I -->|"draft in your voice"| J["you edit it"]
@@ -63,6 +67,12 @@ describing it. `skills/log/SKILL.md` is that ritual written out as a procedure, 
 `skills/write/SKILL.md` is the return direction: it uses what the archive learned about you
 to draft in your voice, then routes your edits back through the log rather than writing to
 the archive itself, so there is one account of how you work instead of two competing ones.
+
+**The loop that makes it governed is the one back to the top.** When a claim falls, the wrong
+version is deleted and one line stays in its place, `> discarded: <what> because <why>`. The
+next agent reads that line before the old source gets a chance to win again. It is the part
+of the method with a measurement behind it, in
+[`METHOD.md`](METHOD.md#no-note-carries-ambiguity).
 
 The job of the log is not to summarize. It is to decide what deserves to survive.
 **A log that records everything is as useless as one that records nothing.**
