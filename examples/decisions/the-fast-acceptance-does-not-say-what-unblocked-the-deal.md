@@ -18,16 +18,17 @@ This is the note the funnel produced from the raw log entries of 2027-02-03 thro
 
 One marker per note would hide which part is weak, so each claim carries its own.
 
-Priya raised the liability clause as the reason the EU distributor deal was stuck, and on
-02/04 she decided to push the deal this quarter instead of waiting for it. `[low · 1ev:
-partner call 02/03 and check in 02/04, both her, narrated by me]`
+Priya raised the liability clause as the reason the EU distributor deal was stuck.
+`[medium · partner call 02/03, my notes, no transcript]` On 02/04 she decided to push the deal
+this quarter instead of waiting for it. `[medium · check in 02/04, my notes, no transcript]`
 
-On 02/05 I sent Sofia the clause Jonas already had from the Canada deal, and her draft was
-ready on 02/06, with the send planned for Monday. `[medium · 2ev: my own sent email 02/05 ·
-standup 02/06]`
+On 02/05 I sent Sofia the clause Jonas already had from the Canada deal. `[high · my own sent
+email 02/05]` Her draft was ready on 02/06, with the send planned for Monday. `[medium ·
+standup 02/06, my notes, no transcript]`
 
 On 02/10 Priya reported that the clause had gone out and that the distributor accepted it with
-no pushback, in under an hour. `[low · 1ev: Priya's Slack 02/10]` **This is the weakest claim
+no pushback, in under an hour. `[low · Priya's Slack 02/10, about the distributor, not about
+herself]` **This is the weakest claim
 in the note, and every conclusion below rests on it.** Nothing from the distributor is
 recorded, the send date is not in the log, and "under an hour" is her wording, not a
 timestamp.

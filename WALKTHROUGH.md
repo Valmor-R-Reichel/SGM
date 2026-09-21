@@ -83,10 +83,11 @@ decisions/the-fast-acceptance-does-not-say-what-unblocked-the-deal.md
 ```
 
 **The decision note** carries the claim as its title, because a title that asserts something
-answers the question before you open the file. Confidence is inline and **one marker per
-claim**, not one per note: the draft being ready is `[medium · 2ev]`, an email I sent and a
-standup, while the acceptance is `[low · 1ev: Priya's Slack 02/10]`, one person reporting what
-the distributor did. A single marker over the paragraph would have averaged the two and hidden
+answers the question before you open the file. Confidence is inline, **one marker per
+claim** and not one per note, and it comes from the source rather than from a count. That I
+sent the clause is `[high]`, because the source is my own sent email. That the draft was
+ready is `[medium]`, a standup I took notes on, with no transcript. The acceptance is `[low]`,
+Priya's Slack reporting what the distributor did, which is not hers to state. A single marker over the paragraph would have averaged them and hidden
 that everything downstream rests on the weaker one. It keeps the two readings separate and
 marked as hypotheses, because one occurrence is one occurrence.
 
@@ -131,8 +132,9 @@ thing it showed me.
 
 In its first 43 hours, this repository had **nine assertions written into it that could not
 be backed**. All nine were caught and corrected before anyone outside had read the
-repository: eight were removed, and one was fixed by adding the file the text had already
-promised.
+repository. Three were true numbers presented as current, and they stayed with their date
+attached. One was fixed by adding the file the text had already promised. The rest were
+removed or rewritten.
 
 The number is not the point. The point is that they fall into three failure modes, and they
 are always the same three.
@@ -171,9 +173,9 @@ now. Nothing about the sentence looks wrong, which is exactly why it survives re
 | adherence numbers that did not match the measurement | `8039c7d` |
 | a table said "days 1 to 3" when the three active days **were not consecutive** | `cf9b72c` |
 
-The June claim is the one to sit with. A different personal system existed before this one and
-was explicitly not migrated, only its lessons were. Conflating the two invented a version
-history this method never had. Nobody lied. A model filled a plausible gap, and plausible is
+The June claim is the one to sit with. A different personal system existed before this one. Its content
+was migrated item by item, but it was never an earlier version of this method. Conflating the
+two invented a version history this method never had. Nobody lied. A model filled a plausible gap, and plausible is
 what makes it hard to catch.
 
 ## The one that matters most
@@ -195,9 +197,10 @@ writing well about something it does not know.
 ## What this demonstrates
 
 The exit door described in the README is not a policy in this repository, it is a log. Nine
-claims entered, nine were checked, nine failed. Eight left, and the ninth stayed once the
-file it kept promising finally arrived. What stayed behind is one line each in a commit
-message saying what fell and why, so nobody redoes the investigation.
+claims entered, nine were checked, nine failed, and none stayed as it was written. The false
+ones left. The three that were only true on a date stayed, with the date. The license stayed
+once the file it kept promising finally arrived. What stayed behind is one line each in a
+commit message saying what fell and why, so nobody redoes the investigation.
 
 **Leaving is a write, not a delete.** This section is what that looks like when it runs.
 

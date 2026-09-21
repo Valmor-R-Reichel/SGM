@@ -127,7 +127,8 @@ archive, that line took wrong answers from 15 percent to zero when the misleadin
 back.
 
 **Deterministic work belongs to the machine, judgment belongs to the person.** Scripts
-propose and never edit the archive. A single skill has write access to it. Approval is a
+propose and never decide. The only thing a script writes into the archive is a plan a human
+already approved, item by item, and a single skill produces those plans. Approval is a
 click rather than free text, because a gate that asks you to compose the authorization
 becomes a rubber stamp.
 
@@ -234,11 +235,6 @@ processor over them, rather than a database with the model as a query interface.
 here is downstream of taking that seriously and then finding out that storage was never the
 hard part.
 
-The name for what this actually is came later, and from outside. It is **context
-engineering**: deciding what a model is given, in what order, and on what authority. The term
-already exists in the industry. It took an outside reader for me to connect it to what I had
-built, which is itself an argument for having outside readers.
-
 There are tools that solve neighbouring problems, persistent agent memory and the maintenance
 of a knowledge graph among them. I have not audited them and I am not comparing. The
 distinction that matters here is one of scope: they handle what to keep and how to retrieve
@@ -291,9 +287,10 @@ Read the date above as part of the content. A method that improves is a method w
 description goes out of date, and the cheap answer to that is saying when it was true.
 
 This is not the first attempt at this. An earlier, differently designed personal system ran
-before it, and the problem section above describes what did not work about it. Nothing from
-that system was migrated into this one, only the lessons about why it broke. This version was
-built from scratch starting in August 2026, and has been running daily since.
+before it, and the problem section above describes what did not work about it. Its design was
+not carried over: this version was built from scratch starting in August 2026, and has been
+running daily since. Its content was consulted and migrated item by item, only where an item
+answered a real question, under the rules in section 12 of [`METHOD.md`](METHOD.md).
 
 The full method is in [`METHOD.md`](METHOD.md). `AGENT.md`, `skills/`, and `examples/` turn it
 into something you can run today, on your own archive.

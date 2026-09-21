@@ -337,7 +337,8 @@ owner alike.
 sentence:
 
 ```
-`[medium · 2ev: meeting 05/08 · email 21/07]`
+`[high · org chart dated 2026-08-05]`
+`[medium · meeting 2026-07-21, from an AI summary, no transcript]`
 ```
 
 The same file can hold one `high` claim and one `low` claim.
@@ -473,14 +474,15 @@ section that had turned into a changelog, at 27 KB; and a minimal one, at 10 KB.
 question ran three times per version, the predictions were written down before the run, and
 the answers were graded blind by a separate pass.
 
-| center | right answers | wrong answers on rule questions | fell for the trap |
-|---|---|---|---|
-| full, 54 KB | 81% | 11% | 0% |
-| without the changelog, 27 KB | 84% | 15% | 0% |
-| minimal, 10 KB | 84% | 30% | 0% |
+| center | right answers | wrong answers on rule questions | followed the expected rule | fell for the trap |
+|---|---|---|---|---|
+| full, 54 KB | 81% | 11% | 93% | 0% |
+| without the changelog, 27 KB | 84% | 15% | 92% | 0% |
+| minimal, 10 KB | 84% | 30% | 94% | 0% |
 
-Size did not hurt, and how closely the answers followed the archive's rules did not change
-with it either. Cutting what already existed in the notes was relief without a measured loss.
+Size did not hurt. Whether an answer followed the rule the question expected, and cited a
+source when it gave a number, stayed between 92 and 94 percent in all three versions, so a
+larger center did not dilute the rules either. Cutting what already existed in the notes was relief without a measured loss.
 Cutting below that removed corrections that lived only in the center, and the minimal version
 got rule questions wrong twice as often as the trimmed one. The limit is what exists only in
 the center, more than its size.
@@ -518,8 +520,9 @@ with them is not delegable, and the sentence above is the reason why.
 
 Four hard rules come out of it:
 
-- **Scripts propose and never edit the archive.** Counting, validating, generating the
-  index, scaffolding a file, zipping. Nothing that decides content.
+- **Scripts propose and never decide.** Counting, validating, generating the index,
+  scaffolding a file, zipping, and typing out a plan the human already approved. Nothing that
+  decides content.
 - **A single skill writes to the branches.** All others propose. This is what closes the
   side door through which a second skill would start writing just a little.
 - **Approval is a click, not free text.** A gate that asks the user to compose the
@@ -574,7 +577,7 @@ so it would not run on yours, and auditing it line by line for anything that nam
 is work that has not been done. What is worth taking from it is not the code, it is the
 constraint written at the top of it:
 
-> **It proposes, it never decides. No subcommand writes inside the archive.**
+> **It proposes, it never decides. Nothing it writes inside the archive was chosen by it.**
 
 The commands that read are unrestricted: state of the archive, regenerate the index, run the
 validations, scaffold an empty file. **Exactly one subcommand writes**, and all it does is
@@ -670,7 +673,7 @@ theme. If everything else disappears, this is what the system gets rebuilt from.
 ### On automation
 
 - **Deterministic is machine work, judgment is human work.**
-- **A script proposes and never edits the archive.**
+- **A script proposes and never decides.** The one thing it writes is a plan already approved.
 - **No skill writes directly to a branch**, except the single one designed for it.
 - **Approval becomes a click**, because a free text gate becomes a rubber stamp.
 - **Routing is by inferred context, not by a table of conditions.** A table covers the

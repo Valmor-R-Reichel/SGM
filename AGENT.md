@@ -121,7 +121,8 @@ Confidence belongs to the sentence, not the file. Mark it inline, next to the cl
 supports:
 
 ```
-`[medium · 2ev: meeting 05/08 · email 21/07]`
+`[high · org chart dated 2026-08-05]`
+`[medium · meeting 2026-07-21, from an AI summary, no transcript]`
 ```
 
 **Judge the source, not the count.** Mark a claim high when its source has authority over that
