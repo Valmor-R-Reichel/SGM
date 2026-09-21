@@ -475,21 +475,33 @@ section that had turned into a changelog, at 27 KB; and a minimal one, at 10 KB.
 question ran three times per version, the predictions were written down before the run, and
 the answers were graded blind by a separate pass.
 
-| center | right | partial | wrong | right on rule questions | wrong on rule questions | followed the expected rule | fell for the trap |
-|---|---|---|---|---|---|---|---|
-| full, 54 KB | 81% | 16% | 3% | 37% | 11% | 93% | 0% |
-| without the changelog, 27 KB | 84% | 11% | 4% | 48% | 15% | 92% | 0% |
-| minimal, 10 KB | 84% | 6% | 9% | 48% | 30% | 94% | 0% |
+| center | right | partial | wrong | no answer | fell for the trap |
+|---|---|---|---|---|---|
+| full, 54 KB | 81% | 16% | 3% | 0% | 0% |
+| without the changelog, 27 KB | 84% | 11% | 4% | 0% | 0% |
+| minimal, 10 KB | 84% | 6% | 9% | 1% | 0% |
 
-Partial answers count as not right. Almost all of them are rule questions, which is why those
-sit well below the overall figure: facts and traps were right every time.
+Facts and traps were right every time, so every partial answer, every wrong one and the one
+answer withheld came from the rule questions. Those, on their own:
 
-Size did not hurt. Whether an answer followed the rule the question expected, and cited a
-source when it gave a number, stayed between 92 and 94 percent in all three versions, so a
-larger center did not dilute the rules either. Cutting what already existed in the notes was relief without a measured loss.
-Cutting below that removed corrections that lived only in the center, and the minimal version
-got rule questions wrong twice as often as the trimmed one. The limit is what exists only in
-the center, more than its size.
+| center, rule questions only | right | partial | wrong | applied the expected rule |
+|---|---|---|---|---|
+| full, 54 KB | 37% | 52% | 11% | 81% |
+| without the changelog, 27 KB | 48% | 37% | 15% | 78% |
+| minimal, 10 KB | 48% | 19% | 30% | 81% |
+
+The last column and the first measure different things. "Applied the expected rule" asks
+whether the answer used the rule the question was about. "Right" compares it with a full
+answer key. Most rule answers applied the rule and left out part of what the key asked for,
+which is the gap between 37 to 48 percent right and around 80 percent applied.
+
+Size did not produce errors: the full center had the fewest wrong answers. It may have cost
+completeness: it also had the fewest fully right rule answers and the most partial ones. With
+27 answers per cell, that is 10 right against 13, too few to call either way. Shrinking the
+center traded partial answers for wrong ones. Cutting below the trimmed version removed
+corrections that lived only in the center, and the minimal version got rule questions wrong
+twice as often as the trimmed one. The limit is what exists only in the center, more than its
+size.
 
 The caveats travel with the numbers. It ran on a single model, and has not been checked on
 others. Fact and trap questions scored 100% in every version, so the test was too easy there
