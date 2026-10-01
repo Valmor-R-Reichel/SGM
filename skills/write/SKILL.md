@@ -30,13 +30,13 @@ which when you write.
 
 If `people/` has a file on this recipient, read it, especially anything about how to
 approach them specifically. The same person often writes differently to a boss, a peer, and
-a vendor, and a dossier that captures that is worth more than a generic tone guide.
+a vendor, and a person's file that captures that is worth more than a generic tone guide.
 
 If a project or a prior decision is involved, check `decisions/` and `projects/` so the new
 text does not contradict something already agreed. Contradicting an old agreement is the
 most expensive mistake this skill can make, more expensive than an awkward sentence.
 
-No dossier on the recipient, say so plainly, and write in the archive owner's default tone
+No file on the recipient, say so plainly, and write in the archive owner's default tone
 instead of guessing at a relationship you have no evidence for.
 
 ---
