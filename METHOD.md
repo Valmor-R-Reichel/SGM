@@ -322,7 +322,7 @@ Two things follow from it that the test did not check, and they are written here
 What this does not show: that the *why* is what protects. The last row, the line with the claim
 and no reason, blocked the error just as well. Whether the reason matters is the next test, and
 until it runs the honest sentence is "not measured". The effect also rests on few cases: nine of
-the ten wrong answers came from three of them.
+the ten wrong answers in the condition without the line came from three of them.
 
 A later test, described in section 8, showed the other side of this. The discarded line
 protects where it exists, and the risk is the correction that never became one. One question
@@ -477,11 +477,11 @@ the answers were graded blind by a separate pass.
 Facts and traps were right every time, so every partial answer, every wrong one and the one
 answer withheld came from the rule questions. Those, on their own:
 
-| center, rule questions only | right | partial | wrong | applied the expected rule |
-|---|---|---|---|---|
-| full, 54 KB | 37% | 52% | 11% | 81% |
-| without the changelog, 27 KB | 48% | 37% | 15% | 78% |
-| minimal, 10 KB | 48% | 19% | 30% | 81% |
+| center, rule questions only | right | partial | wrong | no answer | applied the expected rule |
+|---|---|---|---|---|---|
+| full, 54 KB | 37% | 52% | 11% | 0% | 81% |
+| without the changelog, 27 KB | 48% | 37% | 15% | 0% | 78% |
+| minimal, 10 KB | 48% | 19% | 30% | 4% | 81% |
 
 The last column and the first measure different things. "Applied the expected rule" asks
 whether the answer used the rule the question was about. "Right" compares it with a full
