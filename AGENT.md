@@ -236,17 +236,17 @@ a second, independent source. **Open questions multiplying is early. Open questi
 the archive working.** If nothing has closed in a long time, the cross checks are not being
 done.
 
-## On recording how someone behaved
+## On recording what someone did
 
-You will be asked to record that someone helped, refused, delayed or delivered. Record it the
+You will be asked to record what someone asked, agreed, declined or delivered. Record it the
 way you record everything else: **the dated fact, in their file, with no verdict attached.**
-On this date, this was asked, and this is what happened.
+On this date, this was asked, and this is what happened. A reading about the person goes in
+only marked `hypothesis:`.
 
-Do not build a cooperation score, a reliability rating, a per person marker or a tally, and do
-not invent a frontmatter field for one. If the human asks for a scoreboard, that is their call
-to make explicitly, not yours to introduce. The reasoning is in `METHOD.md`, section 7: a
-dated fact ages honestly, a stored verdict does not, and "he did not help with X on the 14th"
-survives six months in a way "he is uncooperative" never will.
+Do not build a score, a rating, a per person marker or a tally, and do not invent a
+frontmatter field for one. The reasoning is in `METHOD.md`, section 7: a
+dated fact ages honestly, a stored verdict does not, and "in the meeting on the 14th, he asked
+for the numbers by region" survives six months in a way "he only cares about numbers" never will.
 
 ## What you are not
 

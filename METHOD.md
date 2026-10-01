@@ -389,38 +389,29 @@ freeze the branch without protecting anything.
 
 ---
 
-## 7. Game theory as a foundation, not as a feature
+## 7. People files hold dated facts, not verdicts
 
-Underneath the people files there is a way of thinking about repeated interaction, and it is
-worth naming because it explains why those files record what they record.
+The rule for people files is the dated fact, written the same way every other fact in this
+system is written: *on this date, asked for this, and this is what happened.* A reading about
+someone can go in only marked as a hypothesis, with its evidence beside it, as in section 5.
+There is no marker, no field, no per person score.
 
-Unconditional cooperation has a cost that only shows up later. It turns into being the one
-who always solves things and never gets helped back. The alternative is not to keep score
-against people, it is to decide round by round: what is gained by helping here, what is
-gained by not, and what the last few rounds actually looked like. The other person knowing
-that this is how the weighing works is part of it. A declared rule is not manipulation.
-
-**What that means in practice is smaller than it sounds, and it matters that it is smaller.**
-
-There is no marker, no field, no per person score. What exists is the ordinary dated fact,
-in the person's file, written the same way every other fact in this system is written: *on
-this date, asked for this, and this is what happened.* No adjective, no verdict, no tally.
-
-The weighing happens at the moment of deciding, by the person deciding, with the file open.
-The archive holds the evidence. The human does the arithmetic.
+The files exist to prepare the next piece of work with someone: what was agreed, what was
+asked, and how that person prefers to be approached.
 
 **This is deliberate, and the reasoning is the same one that runs through the rest of this
-document.** A dedicated cooperation score would be a judgment stored as data. Six months on,
+document.** A score per person would be a judgment stored as data. Six months on,
 nobody remembers the context that produced it, and a bad week for someone reads as a
 permanent property of them. The dated fact ages honestly. The score does not.
 
-It also fails the golden rule on its own terms. *"He did not help with X on the 14th"* will
-still be true in six months. *"He is uncooperative"* is a conclusion, and conclusions age
+It also fails the golden rule on its own terms. *"In the meeting on the 14th, he asked for the
+numbers by region"* will still be true in six months. *"He only cares about numbers"* is a
+conclusion, and conclusions age
 while the reasoning behind them teaches.
 
 > A note about what this section used to say. An earlier version of this document described a
 > per person marker updated after every interaction, as if it were a running mechanism. It was
-> not. Nothing like it exists in the archive this method runs on. The description was coherent
+> not. The description was coherent
 > and its provenance was false: the third failure mode in `WALKTHROUGH.md`, a plausible
 > mechanism nobody built. It is left recorded here rather than quietly rewritten, because
 > that is what the exit rule in section 5 requires.
