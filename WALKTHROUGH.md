@@ -130,7 +130,7 @@ thing it showed me.
 
 ## The gate's scoreboard
 
-In its first 43 hours, this repository had **nine assertions written into it that could not
+In its first day, this repository had **nine assertions written into it that could not
 be backed**. All nine were caught and corrected before anyone outside had read the
 repository. Three were true numbers presented as current, and they stayed with their date
 attached. One was fixed by adding the file the text had already promised. The rest were

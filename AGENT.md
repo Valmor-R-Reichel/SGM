@@ -104,7 +104,7 @@ promoted is not the same as gone.
   branch: <branch name>
   created: YYYY-MM-DD
   updated: YYYY-MM-DD
-  confidence: high | medium | low   # claim notes only, never on a cumulative file
+  confidence: high | medium | low   # claim notes only: the claim in the title, nothing else
   sources: [<where this came from>]
   ---
   ```

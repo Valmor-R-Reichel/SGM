@@ -6,7 +6,7 @@ answers for it when what it remembered turns out to be wrong.
 | if you want | open |
 |---|---|
 | **to see it work**, on one case, from a raw line to three connected notes | [`WALKTHROUGH.md`](WALKTHROUGH.md) |
-| **to see it fail**, the nine claims this repository wrote in its first 43 hours that could not be backed, each with the commit that fixed it | [Part 2](WALKTHROUGH.md#part-2-the-same-method-applied-to-this-repository) |
+| **to see it fail**, the nine claims this repository wrote in its first day that could not be backed, each with the commit that fixed it | [Part 2](WALKTHROUGH.md#part-2-the-same-method-applied-to-this-repository) |
 | **to see what was measured**, what one line recording a discarded claim does to wrong answers, and what the size of the center file does | [the discarded line](METHOD.md#no-note-carries-ambiguity) and [the center file](METHOD.md#why-an-archive-and-not-a-prompt), in `METHOD.md` |
 | **to run it today**, with whatever assistant you already use | [`AGENT.md`](AGENT.md) |
 | **to argue with the rules**, including the three that measurement revoked or rewrote | [`METHOD.md`](METHOD.md) |
@@ -172,7 +172,7 @@ Section 1 of [`METHOD.md`](METHOD.md) has the full mechanics of all three gates.
 A fluent machine still needs a criterion for what deserves to be kept, and that criterion has
 to come from someone who answers for it. That is the whole argument for the gate, and it is why approval is a click on a specific item rather than a sentence you compose.
 
-The claim is testable, and this repository is where it got tested. In its first 43 hours,
+The claim is testable, and this repository is where it got tested. In its first day,
 **nine assertions were written into it that could not be backed, and all nine were caught and
 corrected before anyone read them.** They are in the commit history with hashes, sorted into the
 three ways this fails, in [`WALKTHROUGH.md`](WALKTHROUGH.md).

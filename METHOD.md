@@ -249,13 +249,14 @@ of claims and no single one of them is the file.
 branch: <branch name>
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-confidence: high | medium | low   # only on claim notes
+confidence: high | medium | low   # only on claim notes: the claim in the title
 sources: [<where it came from>]
 ---
 ```
 
 `confidence` **does not exist** on a cumulative file. A file with ten claims does not have
-one confidence level.
+one confidence level. On a claim note, `confidence` is the confidence of the claim in the
+title, and of nothing else in the file. Every other sentence carries its own marker.
 
 ### Separate fact from reading
 
