@@ -786,8 +786,8 @@ These are not anecdotes. Each one cost work and turned into a criterion.
 
 The archive mixes two things with different owners, and they need different handling:
 
-- **Job knowledge:** clients, processes, people, queries, numbers. It stays in corporate
-  storage and does not travel with me.
+- **Job knowledge:** clients, processes, people, queries, numbers. It belongs to the job and
+  stays out of everything published from here.
 - **Method and profile:** this document, the funnel, the conventions, the tooling, and how I
   think and write. That travels with me.
 

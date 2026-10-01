@@ -169,9 +169,8 @@ Section 1 of [`METHOD.md`](METHOD.md) has the full mechanics of all three gates.
 
 ## The human gate
 
-Give a machine five hundred dictionaries and it will speak the language fluently. Fluency is
-not judgment, and volume of knowledge is not a criterion. That is the whole argument for the
-gate, and it is why approval is a click on a specific item rather than a sentence you compose.
+A fluent machine still needs a criterion for what deserves to be kept, and that criterion has
+to come from someone who answers for it. That is the whole argument for the gate, and it is why approval is a click on a specific item rather than a sentence you compose.
 
 The claim is testable, and this repository is where it got tested. In its first 43 hours,
 **nine assertions were written into it that could not be backed, and all nine were caught and
@@ -268,8 +267,7 @@ and the person holds the accountability, because the person is the one in the ro
 and the one who pays for a wrong claim. Without that operator you get a well organized archive
 that nobody is answerable for.
 
-What gets forged round by round is the criteria, not the repertoire. A system that hands you
-the repertoire without the criteria has handed you five hundred dictionaries.
+What gets forged round by round is the criteria, not the repertoire.
 
 It was also built for one person's working knowledge. Nothing here has been tested as a shared
 team archive, and several of the rules would probably break under multiple writers.
