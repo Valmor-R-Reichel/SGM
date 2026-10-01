@@ -578,8 +578,7 @@ that depends on installation dies on the first new machine.
 
 ### The deterministic layer, described rather than shipped
 
-In the running system, the pieces above are one script of roughly 1,700 lines. It is not in
-this repository, for two reasons: it is shaped to one archive's folder names and conventions,
+In the running system, the pieces above are one script. It is not in this repository, for two reasons: it is shaped to one archive's folder names and conventions,
 so it would not run on yours, and auditing it line by line for anything that names an employer
 is work that has not been done. What is worth taking from it is not the code, it is the
 constraint written at the top of it:
