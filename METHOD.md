@@ -276,7 +276,8 @@ wearing the appearance of a connection. Within the same branch it is welcome, no
 proximity already says enough.
 
 > This rule used to be broader and **was killed by measurement**. It required a comment on
-> every link, and the count found hundreds with none, at zero adherence. See section 13.
+> every link, and the count on 12 August 2026 found 315 links with none, at zero adherence.
+> See section 13.
 
 ### No note carries ambiguity
 

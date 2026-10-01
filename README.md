@@ -139,7 +139,7 @@ automatically, but reviewed with the count beside it, and either rewritten to ma
 actually happens or dropped. Three rules have already gone that way. A maximum note size, which
 was being followed 47 percent of the time, and a requirement that every link carry a comment
 explaining it, which was being followed in none of the 315 links that existed when it was
-measured. The rule that replaced the second one, requiring a comment only on links that cross
+measured on 12 August 2026. The rule that replaced the second one, requiring a comment only on links that cross
 between branches, was last measured at 53 percent and stays for now, a number that is
 expected to drift as the archive grows and has not been rechecked since. The third was the
 evidence rule itself. It asked for three independent pieces of evidence before anything could
