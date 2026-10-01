@@ -36,8 +36,8 @@ specific defects worth naming, because each one turned into a rule later:
    one prompt, with the same footer. Once written, nothing in the file said it came from an
    automated sweep. They sat next to hand written notes carrying the same authority.
 2. **The prompt asked for interpretation, and got it.** It requested "attitudes, political
-   positions and risks", and out came political readings about named colleagues, written in
-   the second person, with no mark saying this was a guess.
+   positions and risks", and out came interpretations about people, written in the second
+   person, with no mark saying this was a guess.
 3. **Files were born as stubs.** Several were under 500 bytes and one was empty. The ritual
    of creating the file happened before there was anything to put in it.
 4. **Each wave became cleanup for the previous one.** A system folder accumulated collision
