@@ -8,7 +8,7 @@ answers for it when what it remembered turns out to be wrong.
 | **to see it work**, on one case, from a raw line to three connected notes | [`WALKTHROUGH.md`](WALKTHROUGH.md) |
 | **to see it fail**, the nine claims this repository wrote in its first day that could not be backed, each with the commit that fixed it | [Part 2](WALKTHROUGH.md#part-2-the-same-method-applied-to-this-repository) |
 | **to see what was measured**, what one line recording a discarded claim does to wrong answers, and what the size of the center file does | [the discarded line](METHOD.md#no-note-carries-ambiguity) and [the center file](METHOD.md#why-an-archive-and-not-a-prompt), in `METHOD.md` |
-| **to see how it was built**, and the criterion behind each step | [`docs/criterion-over-repertoire.md`](docs/criterion-over-repertoire.md) |
+| **Criterion over repertoire**: how it was built, and the criterion behind each step | [`docs/criterion-over-repertoire.md`](docs/criterion-over-repertoire.md) |
 | **to run it today**, with whatever assistant you already use | [`AGENT.md`](AGENT.md) |
 | **to argue with the rules**, including the three that measurement revoked or rewrote | [`METHOD.md`](METHOD.md) |
 
