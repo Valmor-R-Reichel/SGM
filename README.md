@@ -8,6 +8,7 @@ answers for it when what it remembered turns out to be wrong.
 | **to see it work**, on one case, from a raw line to three connected notes | [`WALKTHROUGH.md`](WALKTHROUGH.md) |
 | **to see it fail**, the nine claims this repository wrote in its first day that could not be backed, each with the commit that fixed it | [Part 2](WALKTHROUGH.md#part-2-the-same-method-applied-to-this-repository) |
 | **to see what was measured**, what one line recording a discarded claim does to wrong answers, and what the size of the center file does | [the discarded line](METHOD.md#no-note-carries-ambiguity) and [the center file](METHOD.md#why-an-archive-and-not-a-prompt), in `METHOD.md` |
+| **to see a change the numbers did not confirm**, a rewrite of the center counted before and after, and the judge that almost reported an improvement | [the correction rate](METHOD.md#a-rewrite-of-the-center-measured-before-and-after), in `METHOD.md` |
 | **Criterion over repertoire**: how it was built, and the criterion behind each step | [`docs/criterion-over-repertoire.md`](docs/criterion-over-repertoire.md) |
 | **to run it today**, with whatever assistant you already use | [`AGENT.md`](AGENT.md) |
 | **to argue with the rules**, including the three that measurement revoked or rewrote | [`METHOD.md`](METHOD.md) |
@@ -190,6 +191,7 @@ working, and everything else here builds on top of it, not before it.
 
 ```
 README.md            you are here
+CHANGELOG.md         what changed in the live system after the September cut, by date
 
 WALKTHROUGH.md       <- read this second. the method applied to a case,
                         and then applied to this repository
@@ -296,6 +298,9 @@ strange. What I do not delegate is the judgment about what stays.
 **This describes the system as it stood on 21 September 2026.** It is one person's working
 setup, and it changes most weeks. What changes slowly is the reasoning, and the reasoning is
 what this repository is for.
+
+What changed after that date is listed in [`CHANGELOG.md`](CHANGELOG.md), one dated entry at a
+time.
 
 The files in `skills/` are a dated distillation of what runs here, not a mirror of it. They
 are rewritten to work without the scripts my own archive depends on, so that someone starting

@@ -647,6 +647,105 @@ decision before the output existed; without it the output would have been differ
 worse; and the output can be named, meaning a message that was sent, a number that was
 quoted, a meeting that was run.
 
+### A rewrite of the center, measured before and after
+
+The metric above counts what the archive prevented. This section counts the other side: how
+often I had to correct the assistant, and whether a change to the center moved that number.
+
+**In October 2026 I counted my own corrections.** One month of my messages to one assistant,
+1,339 messages in 140 conversations, was scanned for wording that signals a correction. A
+second assistant judged each of the 193 candidates, and 80 were corrections of the agent: 5.97
+per 100 messages. Each one became a line in a notebook that holds a pointer to the
+conversation and never its text. They sorted into five families:
+
+| family | corrections |
+|---|---|
+| it changed what I had asked for or already chosen | 26 |
+| it answered before fetching or checking what was within reach | 17 |
+| it got a fact or a number wrong | 20 |
+| it carried private preparation into text meant for others | 5 |
+| it missed the form of a text | 10 |
+| none of the five | 2 |
+
+The sorting is an assistant's reading, checked by sample, and about four of the 80 could sit
+in another family.
+
+Every one of the five already had rules. A search of the files the assistants read found 65
+places where a rule covering one of the families was written. What the count showed was where
+they sat: 8 of the 65 were in something that assistant reads in every conversation. The others
+were read only when a file was opened, a search reached it, or a skill ran. And the direction
+behind the largest family, that what I have already chosen stands, was written nowhere as a
+direction. It existed as sixteen separate rules.
+
+So the change went to the center and left the rules alone. On 29 October the single 64 KB
+center file became a short router that loads five files, about 36 KB read every time. The
+first of the five holds five directions, one per family, written in prose with the reason for
+each. The history that had accumulated in the old center went to the archive.
+
+**Twelve days later I counted again.** The same extractor and the same signal wording found
+103 candidates in 591 messages, from 30 October to 10 November. Before judging, they were
+mixed with 40 candidates from October that already had a judgment, and all 143 went to the
+judge under neutral ids, with no date and no conversation attached.
+
+The first judge was a different assistant from the one that had judged October. It found 25
+corrections in the new period, 4.23 per 100 messages, which read as a drop of 29 percent. The
+40 October candidates said where the drop came from:
+
+| | new judge: not a correction | new judge: correction |
+|---|---|---|
+| October judge: not a correction | 19 | 1 |
+| October judge: correction | 10 | 10 |
+
+Of the 20 that the October judge had marked, the new judge marked 10. A judge that sees half
+as many corrections in the same material produces that drop with no change in the system.
+
+So the October judge took the same 143, blind in the same way. On the 40 it agreed with its
+own October judgment in 39, marking the same 20 and one more. With one judge on both sides:
+
+| period | messages | corrections | per 100 messages | 95% interval |
+|---|---|---|---|---|
+| 29 September to 29 October | 1,339 | 80 | 5.97 | 4.83 to 7.37 |
+| 30 October to 10 November | 591 | 44 | 7.45 | 5.59 to 9.85 |
+
+The intervals overlap, and a test of two proportions gives a p of about 0.22. The rate of
+candidates, which needs no judge, went from 14.4 to 17.4 per 100 messages.
+
+**What this shows is narrow.** Twelve days after the rewrite there is no sign that it reduced
+how often I correct the assistant. It leaves open whether the rewrite did anything: the second
+period is short, nothing controlled for what I was working on in each period, and the count by
+family, which would say whether any one family moved, has yet to be done.
+
+A different test passed in the same weeks. Three assistants, each in a new conversation,
+scored 26 of 26 on a test of where things are and which direction applies, citing the new
+files. That says the directions are found. The correction count asks something else, whether a
+direction still holds deep into a long conversation, and that is where corrections happen: the
+typical conversation in October had 4 messages of mine, and the typical correction came in a
+conversation with 33.
+
+Two things came out of the count that hold whatever the result.
+
+**The judge is part of the measurement.** Kept as it first came, this section would report an
+improvement of 29 percent. Forty messages that already had an answer were what separated a
+change in the system from a change in who was looking.
+
+**Half of the evidence behind the first count had expired.** The notebook keeps pointers, and
+the tool that stores the conversations deletes them after 30 days unless told otherwise. By
+the second count, 45 of the 140 October conversations were gone and 40 of the 80 pointers no
+longer opened. October stayed countable because the first extraction had kept its own copy of
+the messages. Section 12 says a live source becomes a pointer and only what disappears gets
+archived. These conversations were a source that disappears, and I had treated them as one
+that stays. The retention has since been extended.
+
+The caveats travel with the numbers. This is one person, two periods of different length, and
+a model as the judge. What counts as a correction is that judge's reading of my message and of
+the reply before it. The first period can be counted again only from the copy, since part of
+the original records is gone. And twelve days is a short time for an instruction to show what
+it does.
+
+The directions stay, with the count beside them. If the count by family shows that the first
+two in the table did not fall, the next step is a mechanism that brings the directions back
+during a long conversation, in place of more text.
+
 ---
 
 ## 12. The catalog of reasoning
